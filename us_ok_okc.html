@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>OSM: Traffic signs test</title>
+    <title>OSM: US OK OKC Traffic signs test</title>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.3/dist/leaflet.css"
@@ -19,7 +19,7 @@
   </head>
   <body>
     <div class="container">
-      <h1>OSM: Traffic signs test</h1>
+      <h1>OSM: US OK OKC Traffic signs test</h1>
       <div id="mapid"></div>
     </div>
 
@@ -42,7 +42,7 @@
    var icon_shop_limited_wheelchair = 'https://github.com/yopaseopor/accessibilitat/raw/master/icons/wheelchair_limited_shop.png';
 
    var setupMap = function () {
-     mymap = L.map('mapid').setView([41.2221000, 1.7248700], 13);
+     mymap = L.map('mapid').setView([35.4647000, -97.471400], 12);
      var osmUrl='https://{s}.tile.openstreetmap.fr/osmfr/{z}/{x}/{y}.png';
      var osmAttrib='&copy; Openstreetmap France | &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>';
      var osm = new L.TileLayer(osmUrl, {minZoom: 8, maxZoom: 20, attribution: osmAttrib});
@@ -53,7 +53,7 @@
      var query = `
      [out:json][timeout:60];
      // fetch area “Vilanova” to search in
-     area(3600344516)->.searchArea;
+     area(3600185048)->.searchArea;
      // gather results
      (
        // query part for: “crossing=unmarked”
@@ -82,37 +82,37 @@
             var icon = null;
 ////////TRAFFIC SIGNS CODE////////////////////
 			//ES:B2a
-      var icon_ES_B2a = 'https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_B2a.png';			
-if (feature.properties.tags['traffic_sign:forward'] == "ES:B2a" && "side=right") {
+      var icon_US_R1_1 = 'https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_AME/US/US_R1-1.png';			
+if (feature.properties.tags['traffic_sign:forward'] == "US:R1-1" && "side=right") {
                 icon = L.icon({
                           iconSize: [16, 16],
                           iconAnchor: [8, 0],
                           popupAnchor:  [1, -24],
-                          iconUrl: icon_ES_B2a
+                          iconUrl: icon_US_R1_1
                 });
 				
-			} else if (feature.properties.tags['traffic_sign:backward'] == "ES:B2a" && "side=right") {
+			} else if (feature.properties.tags['traffic_sign:backward'] == "US:R1-1" && "side=right") {
                 icon = L.icon({
                           iconSize: [16, 16],
                           iconAnchor: [8, 0],
                           popupAnchor:  [1, -24],
-                          iconUrl: icon_ES_B2a
+                          iconUrl: icon_US_R1_1
                 });
 
-            } else if (feature.properties.tags['traffic_sign:forward'] == "ES:B2a" && "side=left") {
+            } else if (feature.properties.tags['traffic_sign:forward'] == "US:R1-1" && "side=left") {
                 icon = L.icon({
                           iconSize: [16, 16],
                           iconAnchor: [16, 0],
                           popupAnchor:  [1, -24],
-                          iconUrl: icon_ES_B2a
+                          iconUrl: icon_US_R1_1
                 });
 				
-            } else if (feature.properties.tags['traffic_sign:backward'] == "ES:B2a" && "side=left") {
+            } else if (feature.properties.tags['traffic_sign:backward'] == "US:R1-1" && "side=left") {
                 icon = L.icon({
                           iconSize: [16, 16],
                           iconAnchor: [16, 0],
                           popupAnchor:  [1, -24],
-                          iconUrl: icon_ES_B2a
+                          iconUrl: icon_US_R1_1
              });
 				
 
@@ -122,38 +122,38 @@ if (feature.properties.tags['traffic_sign:forward'] == "ES:B2a" && "side=right")
 			  
 			  //////////////////////////////////////////////////////////////
 
-			//ES:B2d
-      var icon_ES_B2d = 'https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_B2d.png';			
-if (feature.properties.tags['traffic_sign:forward'] == "ES:B2d" && "side=right") {
+			//US:R1-2
+      var icon_US_R1_2 = 'https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_AME/US/US_R1_1.png';			
+if (feature.properties.tags['traffic_sign:forward'] == "US:R1-2" && "side=right") {
                 icon = L.icon({
                           iconSize: [16, 16],
                           iconAnchor: [8, 0],
                           popupAnchor:  [1, -24],
-                          iconUrl: icon_ES_B2d
+                          iconUrl: icon_US_R1_2
                 });
 				
-			} else if (feature.properties.tags['traffic_sign:backward'] == "ES:B2d" && "side=right") {
+			} else if (feature.properties.tags['traffic_sign:backward'] == "US:R1-2" && "side=right") {
                 icon = L.icon({
                           iconSize: [16, 16],
                           iconAnchor: [8, 0],
                           popupAnchor:  [1, -24],
-                          iconUrl: icon_ES_B2d
+                          iconUrl: icon_US_R1_2
                 });
 
-            } else if (feature.properties.tags['traffic_sign:forward'] == "ES:B2d" && "side=left") {
+            } else if (feature.properties.tags['traffic_sign:forward'] == "US:R1-2" && "side=left") {
                 icon = L.icon({
                           iconSize: [16, 16],
                           iconAnchor: [16, 0],
                           popupAnchor:  [1, -24],
-                          iconUrl: icon_ES_B2d
+                          iconUrl: icon_US_R1_2
                 });
 				
-            } else if (feature.properties.tags['traffic_sign:backward'] == "ES:B2d" && "side=left") {
+            } else if (feature.properties.tags['traffic_sign:backward'] == "US:R1-2" && "side=left") {
                 icon = L.icon({
                           iconSize: [16, 16],
                           iconAnchor: [16, 0],
                           popupAnchor:  [1, -24],
-                          iconUrl: icon_ES_B2d
+                          iconUrl: icon_US_R1_2
              });
 				
 
@@ -2004,16 +2004,9 @@ if (feature.properties.tags['traffic_sign:forward'] == "ES:S572" && "side=right"
 
    </script>
    <br>
-  <h1> Other example maps:</h1><br>
-     <h2>America</h2><br>
-   Traffic signs in <a href="us_ok_okc.html"> Oklahoma City (Oklahoma) (United States) </a>
-   <h2>Australia</h2><br>
-   Traffic signs in <a href="au_sw_syd.html"> Sidney (New South Wales) (Australia) </a><br>   
-  <h2>Europe</h2><br>
-   Traffic signs in <a href="es_ca_vng.html"> Vilanova i la Geltrú (Catalunya) (Spain) </a><br>
-   Traffic signs in <a href="es_ex_fds.html"> Fregenal de la Sierra (Extremadura) (Spain) </a><br>
-
-   <br>
+   Other example maps from :
+   <a href="index.html">INDEX</a><br>
+     <br>
    
   </body>
 </html>
