@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>OSM: Traffic signs test</title>
+    <title>OSM: Overpass + Leaflet</title>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.3/dist/leaflet.css"
@@ -19,7 +19,7 @@
   </head>
   <body>
     <div class="container">
-      <h1>OSM: Traffic signs</h1>
+      <h1>OSM: Overpass + Leaflet</h1>
       <div id="mapid"></div>
     </div>
 
@@ -43,7 +43,7 @@
    var setupMap = function () {
      mymap = L.map('mapid').setView([41.2221000, 1.7248700], 13);
      var osmUrl='https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
-     var osmAttrib='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>';
+     var osmAttrib='&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>';
      var osm = new L.TileLayer(osmUrl, {minZoom: 8, maxZoom: 18, attribution: osmAttrib});
      mymap.addLayer(osm);
      geoLayer = L.geoJson().addTo(mymap);
@@ -59,6 +59,17 @@
        node["traffic_sign:forward"](area.searchArea);
        // query part for: “"obstacle:wheelchair"=yes”
        node["traffic_sign:backward"](area.searchArea);
+       // query part for: “wheelchair=no and highway=footway”
+      // way["wheelchair"="no"]["highway"="footway"](area.searchArea);
+       // query part for: “wheelchair=no and shop=*”
+       node["highway"="stop"]["traffic_sign:forward"](area.searchArea);
+         // query part for: “wheelchair=yes and shop=*”
+       node["highway"="stop"]["traffic_sign:backward"](area.searchArea);
+	   node["highway"="give_way"]["traffic_sign:forward"](area.searchArea);
+         // query part for: “wheelchair=yes and shop=*”
+       node["highway"="give_way"]["traffic_sign:backward"](area.searchArea);
+         // query part for: “wheelchair=limited and shop=*”
+     //  node["wheelchair"="limited"]["shop"](area.searchArea);
      );
      (._;>;);out;
      `;
@@ -67,7 +78,7 @@
 			data: query,
 			type: 'post',
 			dataType: 'json',
-			url: 'https://overpass-api.de/api/interpreter',
+			url: 'http://overpass-api.de/api/interpreter',
 			success: function(json) {
 				mymap.removeLayer(geoLayer);
 				var geojson = osmtogeojson(json);
@@ -79,98 +90,34 @@
           pointToLayer: function(feature, latlng) {
             //console.log(feature);
             var icon = null;
-if (feature.properties.tags['traffic_sign'] == "ES:R2" && "side=right") {
+            if (feature.properties.tags.highway) {
+              if (feature.properties.tags.highway == "stop") {
                 icon = L.icon({
-                          iconSize: [16, 16],
-                          iconAnchor: [8, 0],
+                          iconSize: [27, 27],
+                          iconAnchor: [13, 27],
                           popupAnchor:  [1, -24],
                           iconUrl: icon_ESR2
                 });
 
-              } else if (feature.properties.tags['traffic_sign'] == "ES:R2" && "side=left") {
+              } else if (feature.properties.tags.highway == "give_way") {
                 icon = L.icon({
-                          iconSize: [16, 16],
-                          iconAnchor: [16, 0],
-                          popupAnchor:  [1, -24],
-                          iconUrl: icon_ESR2
-                });
-				
-              } else if (feature.properties.tags['traffic_sign'] == "ES:R1" && "side=left") {
-                icon = L.icon({
-                          iconSize: [16, 16],
-                          iconAnchor: [16, 0],
+                          iconSize: [27, 27],
+                          iconAnchor: [13, 27],
                           popupAnchor:  [1, -24],
                           iconUrl: icon_ESR1
-                });
-				
-				              } else if (feature.properties.tags['traffic_sign'] == "ES:R1" && "side=right") {
-                icon = L.icon({
-                          iconSize: [16, 16],
-                          iconAnchor: [8, 0],
-                          popupAnchor:  [1, -24],
-                          iconUrl: icon_shop_limited_wheelchair
                 });
 
               } else if (feature.properties.tags.wheelchair == "limited") {
                 icon = L.icon({
-                          iconSize: [20, 20],
+                          iconSize: [27, 27],
                           iconAnchor: [13, 27],
                           popupAnchor:  [1, -24],
                           iconUrl: icon_shop_limited_wheelchair
                 });
-				
-				
 
               }
 
-            
-			
-
-if (feature.properties.tags['traffic_sign'] == "ES:R2" && "side=right") {
-                icon = L.icon({
-                          iconSize: [16, 16],
-                          iconAnchor: [8, 0],
-                          popupAnchor:  [1, -24],
-                          iconUrl: icon_ESR2
-                });
-
-              } else if (feature.properties.tags['traffic_sign'] == "ES:R2" && "side=left") {
-                icon = L.icon({
-                          iconSize: [16, 16],
-                          iconAnchor: [16, 0],
-                          popupAnchor:  [1, -24],
-                          iconUrl: icon_ESR2
-                });
-				
-              } else if (feature.properties.tags['traffic_sign'] == "ES:R1" && "side=left") {
-                icon = L.icon({
-                          iconSize: [16, 16],
-                          iconAnchor: [16, 0],
-                          popupAnchor:  [1, -24],
-                          iconUrl: icon_ESR1
-                });
-				
-				              } else if (feature.properties.tags['traffic_sign'] == "ES:R1" && "side=right") {
-                icon = L.icon({
-                          iconSize: [16, 16],
-                          iconAnchor: [8, 0],
-                          popupAnchor:  [1, -24],
-                          iconUrl: icon_shop_limited_wheelchair
-                });
-
-              } else if (feature.properties.tags.wheelchair == "limited") {
-                icon = L.icon({
-                          iconSize: [20, 20],
-                          iconAnchor: [13, 27],
-                          popupAnchor:  [1, -24],
-                          iconUrl: icon_shop_limited_wheelchair
-                });
-				
-				
-
-              }
-
-            
+            }
             if (icon) {
               return L.marker(latlng, {icon: icon});
             }
