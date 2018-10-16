@@ -80,7 +80,7 @@
             //console.log(feature);
             var icon = null;
             if (feature.properties.tags.highway) {
-if (feature.properties.tags['traffic_sign'] == "ES:R2") {
+if (feature.properties.tags['traffic_sign:forward'] == "ES:R2") {
                 icon = L.icon({
                           iconSize: [27, 27],
                           iconAnchor: [13, 27],
@@ -88,7 +88,7 @@ if (feature.properties.tags['traffic_sign'] == "ES:R2") {
                           iconUrl: icon_ESR2
                 });
 
-              } else if (feature.properties.tags['traffic_sign'] == "ES:R1") {
+              } else if (feature.properties.tags['traffic_sign:forward'] == "ES:R1") {
                 icon = L.icon({
                           iconSize: [27, 27],
                           iconAnchor: [13, 27],
@@ -109,7 +109,7 @@ if (feature.properties.tags['traffic_sign'] == "ES:R2") {
             }
 			
             if (feature.properties.tags.highway) {
-if (feature.properties.tags['traffic_sign'] == "ES:R2") {
+if (feature.properties.tags['traffic_sign:backward'] == "ES:R2") {
                 icon = L.icon({
                           iconSize: [16, 16],
                           iconAnchor: [13, 27],
@@ -117,7 +117,7 @@ if (feature.properties.tags['traffic_sign'] == "ES:R2") {
                           iconUrl: icon_ESR2
                 });
 
-              } else if (feature.properties.tags['traffic_sign'] == "ES:R1") {
+              } else if (feature.properties.tags['traffic_sign:backward'] == "ES:R1") {
                 icon = L.icon({
                           iconSize: [16, 16],
                           iconAnchor: [13, 27],
