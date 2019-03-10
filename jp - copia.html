@@ -82,7 +82,7 @@
             var icon = null;
 ////////TRAFFIC SIGNS CODE////////////////////
 			//AR:R27
-            var icon_JP_330 = 'https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_PAC/JP/JP_330.png';			
+      var icon_JP_330 = 'https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_PAC/JP/JP_330.png';			
 if (feature.properties.tags['traffic_sign:forward'] == "JP:330" && "side=right") {
                 icon = L.icon({
                           iconSize: [16, 16],
@@ -108,22 +108,6 @@ if (feature.properties.tags['traffic_sign:forward'] == "JP:330" && "side=right")
                 });
 				
             } else if (feature.properties.tags['traffic_sign:backward'] == "JP:330" && "side=left") {
-                icon = L.icon({
-                          iconSize: [16, 16],
-                          iconAnchor: [16, 0],
-                          popupAnchor:  [1, -24],
-                          iconUrl: icon_JP_330
-                });
-				
-            } else if (feature.properties.tags['traffic_sign:backward'] == "JP:330") {
-                icon = L.icon({
-                          iconSize: [16, 16],
-                          iconAnchor: [16, 0],
-                          popupAnchor:  [1, -24],
-                          iconUrl: icon_JP_330
-                });
-				
-            } else if (feature.properties.tags['traffic_sign:backward'] == "JP:330") {
                 icon = L.icon({
                           iconSize: [16, 16],
                           iconAnchor: [16, 0],
