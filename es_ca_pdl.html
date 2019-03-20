@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>OSM: Traffic signs test</title>
+    <title>OSM: ES CA PDL Traffic signs test</title>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.3/dist/leaflet.css"
@@ -19,7 +19,7 @@
   </head>
   <body>
     <div class="container">
-      <h1>OSM: Traffic signs test</h1>
+      <h1>OSM: ES CA PDL  Traffic signs test</h1>
       <div id="mapid"></div>
     </div>
 
@@ -53,7 +53,7 @@
      var query = `
      [out:json][timeout:60];
      // fetch area “Vilanova  i la Geltrú” to search in
-     area(3600344516)->.searchArea;
+     area(36002117041)->.searchArea;
      // gather results
      (
        // query part for: “crossing=unmarked”
@@ -2004,27 +2004,9 @@ if (feature.properties.tags['traffic_sign:forward'] == "ES:S572" && "side=right"
 
    </script>
    <br>
-  <h1> Other example maps:</h1><br>
-     <h2>America</h2><br>
-	    Traffic signs in <a href="ar_sf.html"> (Santa Fe) (Argentina) </a><br>
-	    Traffic signs in <a href="br_rj.html"> Rio de Janeiro (Rio de Janeiro) (Brazil) </a><br>
-   Traffic signs in <a href="us_ok_okc.html"> Oklahoma City (Oklahoma) (United States) </a><br>
-   
-      <h2>Asia</h2><br>
-   Traffic signs in <a href="jp.html"> (Japan) </a><br>   
-
-   <h2>Australia</h2><br>
-   Traffic signs in <a href="au_sw_syd.html"> Sidney (New South Wales) (Australia) </a><br>   
-  <h2>Europe</h2><br>
-    Traffic signs in <a href="de_nd.html"> (Nordbaden) (Germany) </a><br>
-	Traffic signs in <a href="es_ca_cdl.html"> Cornellà de Llobregat (Catalunya) (Spain) </a><br>
-	Traffic signs in <a href="es_ca_ptb.html"> Portbou (Catalunya) (Spain) </a><br>
-	Traffic signs in <a href="es_ca_pdl.html"> el Prat de Llobregat (Catalunya) (Spain) </a><br>
-	Traffic signs in <a href="es_ca_sbl.html"> Sant Boi de Llobregat (Catalunya) (Spain) </a><br>
-    Traffic signs in <a href="es_ca_vng.html"> Vilanova i la Geltrú (Catalunya) (Spain) </a><br>
-    Traffic signs in <a href="es_ex_fds.html"> Fregenal de la Sierra (Extremadura) (Spain) </a><br>
-
-   <br>
+   Other example maps from :
+   <a href="index.html">INDEX</a><br>
+     <br>
    
   </body>
 </html>
