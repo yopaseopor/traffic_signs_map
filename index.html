@@ -106,19 +106,19 @@ function init(){
 		
 		var OSMFr = new OpenLayers.Layer.OSM("OSMFr", ["https://a.tile.openstreetmap.fr/osmfr/${z}/${x}/${y}.png", "https://b.tile.openstreetmap.fr/osmfr/${z}/${x}/${y}.png", "https://c.tile.openstreetmap.fr/osmfr/${z}/${x}/${y}.png"], { displayOutsideMaxExtent: true,numZoomLevels: 20, attribution: '&copy; Openstreetmap France | © <a href="https://www.openstreetmap.org/copyright/en" target="_blank">OpenStreetMap</a> contributors<br>Overlay data licensed under ODbL  '}); map.addLayer(OSMFr);
 		
-		var OSMCh = new OpenLayers.Layer.XYZ("OSMCh","https://tile.osm.ch/switzerland/${z}/${x}/${y}.png",{'attribution': ' © <a href="https://www.openstreetmap.org/copyright/en" target="_blank">OpenStreetMap</a> contributors<br>Overlay data licensed under ODbL '}); 
-		map.addLayer(OSMCh);
+		var OMS = new OpenLayers.Layer.XYZ("OpenMapSurfer","https://maps.heigit.org/openmapsurfer/tiles/roads/webmercator/${z}/${x}/${y}.png",{'attribution': 'Imagery from <a href="http://giscience.uni-hd.de/">GIScience Research Group @ University of Heidelberg</a> Map data © <a href="https://www.openstreetmap.org/copyright/en" target="_blank">OpenStreetMap</a> contributors<br>Overlay data licensed under ODbL '}); 
+		map.addLayer(OMS);
 		
-		var cycle = new OpenLayers.Layer.OSM("OpenCycleMap", ["https://a.tile.thunderforest.com/cycle/${z}/${x}/${y}.png?apikey=a5dd6a2f1c934394bce6b0fb077203eb", "https://b.tile.thunderforest.com/cycle/${z}/${x}/${y}.png?apikey=a5dd6a2f1c934394bce6b0fb077203eb", "https://c.tile.thunderforest.com/cycle/${z}/${x}/${y}.png?apikey=a5dd6a2f1c934394bce6b0fb077203eb"], { displayOutsideMaxExtent: true,numZoomLevels: 19, attribution: 'Open Cyclemap '}); map.addLayer(cycle);
+		//var cycle = new OpenLayers.Layer.OSM("OpenCycleMap", ["https://a.tile.thunderforest.com/cycle/${z}/${x}/${y}.png?apikey=a5dd6a2f1c934394bce6b0fb077203eb", "https://b.tile.thunderforest.com/cycle/${z}/${x}/${y}.png?apikey=a5dd6a2f1c934394bce6b0fb077203eb", "https://c.tile.thunderforest.com/cycle/${z}/${x}/${y}.png?apikey=a5dd6a2f1c934394bce6b0fb077203eb"], { displayOutsideMaxExtent: true,numZoomLevels: 19, attribution: 'Open Cyclemap '}); map.addLayer(cycle);
 
-		var arcgis = new OpenLayers.Layer.XYZ("ArcGIS World Topo","https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/${z}/${y}/${x}",{'attribution': 'Cartography © <a href="https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer" target="_blank">ArcGIS</a><br>Overlay data OpenStreetMap contributors, licensed under ODbL '}); 
-		map.addLayer(arcgis);
+		//var arcgis = new OpenLayers.Layer.XYZ("ArcGIS World Topo","https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/${z}/${y}/${x}",{'attribution': 'Cartography © <a href="https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer" target="_blank">ArcGIS</a><br>Overlay data OpenStreetMap contributors, licensed under ODbL '}); 
+		//map.addLayer(arcgis);
 
-		var positron = new OpenLayers.Layer.XYZ("Positron (CartoDB)","https://s.basemaps.cartocdn.com/light_all/${z}/${x}/${y}.png",{'attribution': '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, &copy; <a href="https://cartodb.com/attributions">CartoDB</a>'});
-		map.addLayer(positron);
+		//var positron = new OpenLayers.Layer.XYZ("Positron (CartoDB)","https://s.basemaps.cartocdn.com/light_all/${z}/${x}/${y}.png",{'attribution': '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, &copy; <a href="https://cartodb.com/attributions">CartoDB</a>'});
+		//map.addLayer(positron);
 		
-		var darkmatter = new OpenLayers.Layer.XYZ("Dark Matter (CartoDB)","https://s.basemaps.cartocdn.com/dark_all/${z}/${x}/${y}.png",{'attribution': '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, &copy; <a href="https://cartodb.com/attributions">CartoDB</a>'});
-		map.addLayer(darkmatter);
+		//var darkmatter = new OpenLayers.Layer.XYZ("Dark Matter (CartoDB)","https://s.basemaps.cartocdn.com/dark_all/${z}/${x}/${y}.png",{'attribution': '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, &copy; <a href="https://cartodb.com/attributions">CartoDB</a>'});
+		//map.addLayer(darkmatter);
 		
 		googlesat = new OpenLayers.Layer.XYZ("Google Sat",
                     ["https://mt0.google.com/vt/lyrs=s&x=${x}&y=${y}&z=${z}",
