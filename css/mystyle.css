@@ -20,8 +20,8 @@
 		overflow-x: auto;
 		height: 300px;
 		width: 200px;
-		bottom: 100px;	
-		right: 10px;
+		top: 10px;	
+		right: 2px;
 		}
 	div.olControlAttribution {
 		position: absolute;
