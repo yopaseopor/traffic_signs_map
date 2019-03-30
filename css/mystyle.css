@@ -13,9 +13,9 @@
 		bottom: 80px;
 	}
 		div.olControlLayerSwitcher .layersDiv {
-		position: sticky;
+		position: relative;
 		top: 100px;
-		right: 1000px;
+		right: 1200px;
 		background-color:  #888888 ;
 		padding-left: 0px;
 		padding-right: 0px;
