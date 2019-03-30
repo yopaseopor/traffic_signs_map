@@ -56,10 +56,10 @@
 		background-color: white;
 		background-color:rgba(255,255,255,1);
 		top: 20px;
-		left: 40px;
+		left: 50px;
 		overflow-y: auto;
 		overflow-x: auto;
-		width: 300px;
+		width: 500px;
 		border-style: solid;
 		border-width: 2px;
 		border-color: black;
