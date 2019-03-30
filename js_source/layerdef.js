@@ -91,16 +91,22 @@ function layerdef(type){
 		//	dit maakt de layers voor de cycleway tags
 		map.addLayers([
 		//highway=cycleway
-			make_layer(
+//			make_layer(
 				QURL + "?data=(way[highway=cycleway](bbox);node(w);way[highway~'path$|^footway$'][bicycle=designated](bbox);node(w););out+skel;",
 				name="#l#highway=cycleway",
 				defaultSolidLine("red"),
-				false,
+//				false,
+//			),
+make_layer(
+QURL + "?data=node['traffic_sign:backward'='ES:P1'](bbox);out+skel;",
+name="#ex#&nbspES:P1 Backward ",
+tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_P1.png"),
+false
 			),
 make_layer(
-QURL + "?data=node['traffic_sign:backward'='ES:R1'](bbox);out+skel;",
-name="#ex#&nbspES:R1 Backward ",
-tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_R1.png"),
+QURL + "?data=node['traffic_sign:forward'='ES:P1'](bbox);out+skel;",
+name="#ex#&nbspES:P1 Forward ",
+tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_P1.png"),
 false
 ),
 			//Bromfiets/Fietpaden/Onverpl.fietspaden
