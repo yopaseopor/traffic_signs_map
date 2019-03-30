@@ -111,28 +111,52 @@ false
 			),
 make_layer(
 QURL + "?data=node['traffic_sign:backward'='ES:P1b'](bbox);out+skel;",
-name="#ex#&nbspES:P1 Backward ",
+name="#ex#&nbspES:P1b Backward ",
 tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_P1b.png"),
 false
 			),
 make_layer(
 QURL + "?data=node['traffic_sign:forward'='ES:P1b'](bbox);out+skel;",
-name="#ex#&nbspES:P1 Forward ",
+name="#ex#&nbspES:P1b Forward ",
 tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_P1b.png"),
 false
 			),
 make_layer(
 QURL + "?data=node['traffic_sign:backward'='ES:P1c'](bbox);out+skel;",
-name="#ex#&nbspES:P1 Backward ",
+name="#ex#&nbspES:P1c Backward ",
 tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_P1c.png"),
 false
 			),
 make_layer(
 QURL + "?data=node['traffic_sign:forward'='ES:P1c'](bbox);out+skel;",
-name="#ex#&nbspES:P1 Forward ",
+name="#ex#&nbspES:P1c Forward ",
 tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_P1c.png"),
 false
-),
+			),
+make_layer(
+QURL + "?data=node['traffic_sign:backward'='ES:P13a'](bbox);out+skel;",
+name="#ex#&nbspES:P13a Backward ",
+tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_P13a.png"),
+false
+			),
+make_layer(
+QURL + "?data=node['traffic_sign:forward'='ES:P13a'](bbox);out+skel;",
+name="#ex#&nbspES:P13a Forward ",
+tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_P13a.png"),
+false
+			),
+make_layer(
+QURL + "?data=node['traffic_sign:backward'='ES:P13b'](bbox);out+skel;",
+name="#ex#&nbspES:P13b Backward ",
+tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_P13b.png"),
+false
+			),
+make_layer(
+QURL + "?data=node['traffic_sign:forward'='ES:P13b'](bbox);out+skel;",
+name="#ex#&nbspES:P13b Forward ",
+tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_P13b.png"),
+false
+			),
 			//Bromfiets/Fietpaden/Onverpl.fietspaden
             make_layer(
 				QURL + "?data=(way[highway=cycleway][moped~'^designated$|^yes$'](bbox);node(w);way[highway=cycleway]['moped:forward'~'^designated$|^yes$'](bbox);node(w);way[highway=cycleway]['moped:backward'~'^designated$|^yes$'](bbox);node(w););out+skel;",
