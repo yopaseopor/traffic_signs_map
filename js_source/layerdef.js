@@ -86,6 +86,113 @@ function layerdef(type){
 			strokeDashstyle: "6 10"
 		});
 	}
+	
+	function defaultPoint(color){
+		return (
+		{
+			strokeColor:color,
+			strokeOpacity:0.9,
+			strokeWidth:3,
+			pointRadius:5,
+			fillColor:"white",
+			fillOpacity:0.75
+		});
+	}
+	
+		function defaultPoint2(color){
+		return (
+		{
+			strokeColor:color,
+			strokeOpacity:0.5,
+			strokeWidth:3,
+			pointRadius:5,
+			fillColor:"white",
+			fillOpacity:0.5
+		});
+	}
+	
+		function defaultPoint3(color){
+		return (
+		{
+			strokeColor:color,
+			strokeOpacity:1,
+			strokeWidth:3,
+			pointRadius:5,
+			fillColor:"white",
+			fillOpacity:0
+		});
+	}
+	
+		function defaultPoint4(color){
+		return (
+		{
+			strokeColor:color,
+			strokeOpacity:0.9,
+			strokeWidth:3,
+			pointRadius:7,
+			fillColor:"white",
+			fillOpacity:0
+		});
+	}
+	
+			function defaultPoint5(color){
+		return (
+		{
+			strokeColor:color,
+			strokeOpacity:0.9,
+			strokeWidth:3,
+			pointRadius:9,
+			fillColor:"white",
+			fillOpacity:0
+		});
+	}
+
+	/*
+	 * external Point Parameters:
+	 * {
+	 * 	externalGraphic: "path/to/icon.png",
+	 * 	graphicWidth: 6,
+	 * 	graphicHeight:6,
+	 * 	graphicOpacity: 0.75,
+	 * 	graphicXOffset: 0,
+	 * 	graphicYOffset: 0,
+	 * 	rotation: 0
+	 * }
+	 */
+	function defaultExtPoint(url){
+		return (
+		{
+			externalGraphic:url,
+			graphicWidth:16,
+			graphicHeight:16,
+			rotation:125
+		});
+	}
+	
+		function tsforward(url){
+		return (
+		{
+			externalGraphic:url,
+			graphicWidth:20,
+			graphicHeight:20,
+			graphicXOffset: 4,
+			graphicYOffset: 0,
+			rotation:0
+		});
+	}
+	
+		function tsbackward(url){
+		return (
+		{
+			externalGraphic:url,
+			graphicWidth:20,
+			graphicHeight:20,
+			graphicXOffset: -4,
+			graphicYOffset: 0,
+			rotation:180
+		});
+	}
+	
 
 	if (type == "cycleways"){
 		//	dit maakt de layers voor de cycleway tags
@@ -195,111 +302,6 @@ false
 	 * 	fillOpacity: 0.75,
 	 * }
 	 */
-	function defaultPoint(color){
-		return (
-		{
-			strokeColor:color,
-			strokeOpacity:0.9,
-			strokeWidth:3,
-			pointRadius:5,
-			fillColor:"white",
-			fillOpacity:0.75
-		});
-	}
-	
-		function defaultPoint2(color){
-		return (
-		{
-			strokeColor:color,
-			strokeOpacity:0.5,
-			strokeWidth:3,
-			pointRadius:5,
-			fillColor:"white",
-			fillOpacity:0.5
-		});
-	}
-	
-		function defaultPoint3(color){
-		return (
-		{
-			strokeColor:color,
-			strokeOpacity:1,
-			strokeWidth:3,
-			pointRadius:5,
-			fillColor:"white",
-			fillOpacity:0
-		});
-	}
-	
-		function defaultPoint4(color){
-		return (
-		{
-			strokeColor:color,
-			strokeOpacity:0.9,
-			strokeWidth:3,
-			pointRadius:7,
-			fillColor:"white",
-			fillOpacity:0
-		});
-	}
-	
-			function defaultPoint5(color){
-		return (
-		{
-			strokeColor:color,
-			strokeOpacity:0.9,
-			strokeWidth:3,
-			pointRadius:9,
-			fillColor:"white",
-			fillOpacity:0
-		});
-	}
-
-	/*
-	 * external Point Parameters:
-	 * {
-	 * 	externalGraphic: "path/to/icon.png",
-	 * 	graphicWidth: 6,
-	 * 	graphicHeight:6,
-	 * 	graphicOpacity: 0.75,
-	 * 	graphicXOffset: 0,
-	 * 	graphicYOffset: 0,
-	 * 	rotation: 0
-	 * }
-	 */
-	function defaultExtPoint(url){
-		return (
-		{
-			externalGraphic:url,
-			graphicWidth:16,
-			graphicHeight:16,
-			rotation:125
-		});
-	}
-	
-		function tsforward(url){
-		return (
-		{
-			externalGraphic:url,
-			graphicWidth:20,
-			graphicHeight:20,
-			graphicXOffset: 4,
-			graphicYOffset: 0,
-			rotation:0
-		});
-	}
-	
-		function tsbackward(url){
-		return (
-		{
-			externalGraphic:url,
-			graphicWidth:20,
-			graphicHeight:20,
-			graphicXOffset: -4,
-			graphicYOffset: 0,
-			rotation:180
-		});
-	}
 	
 	if (type == "test"){
 		
