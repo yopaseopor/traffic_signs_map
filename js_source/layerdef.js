@@ -218,25 +218,25 @@ tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_sign
 false
 			),
 			//Bromfiets/Fietpaden/Onverpl.fietspaden
-            make_layer(
-				QURL + "?data=(way[highway=cycleway][moped~'^designated$|^yes$'](bbox);node(w);way[highway=cycleway]['moped:forward'~'^designated$|^yes$'](bbox);node(w);way[highway=cycleway]['moped:backward'~'^designated$|^yes$'](bbox);node(w););out+skel;",
-				name="#l#cycleway, moped=yes",
-				defaultSolidLine("purple"),
-				false
-			),
+//            make_layer(
+//				QURL + "?data=(way[highway=cycleway][moped~'^designated$|^yes$'](bbox);node(w);way[highway=cycleway]['moped:forward'~'^designated$|^yes$'](bbox);node(w);way[highway=cycleway]['moped:backward'~'^designated$|^yes$'](bbox);node(w););out+skel;",
+//				name="#l#cycleway, moped=yes",
+//				defaultSolidLine("purple"),
+//				false
+//			),
 			  
-            make_layer(
-				QURL + "?data=(way[highway=cycleway][moped=no](bbox);node(w););out+skel;",
-				name="#dl#cycleway moped=no",
-				defaultDashedLine("cyan"),
-				false
-			),
+//            make_layer(
+//				QURL + "?data=(way[highway=cycleway][moped=no](bbox);node(w););out+skel;",
+//				name="#dl#cycleway moped=no",
+//				defaultDashedLine("cyan"),
+//				false
+//			),
 			
-            make_layer(
-				QURL + "?data=(way[highway=cycleway][mofa=no](bbox);node(w););out+skel;", 
-				name="#l#cycleway mofa=no",
-				defaultSolidLine("cyan"),
-				false),
+ //           make_layer(
+//				QURL + "?data=(way[highway=cycleway][mofa=no](bbox);node(w););out+skel;", 
+//				name="#l#cycleway mofa=no",
+//				defaultSolidLine("cyan"),
+//				false),
 			
 /*			  
 			// kenmerken met cycleway
@@ -374,6 +374,18 @@ false
 		});
 	}
 	
+			function ts(url){
+		return (
+		{
+			externalGraphic:url,
+			graphicWidth:20,
+			graphicHeight:20,
+			graphicXOffset: 0,
+			graphicYOffset: 0,
+			rotation:0
+		});
+	}
+	
 		function tsforward(url){
 		return (
 		{
@@ -398,6 +410,30 @@ false
 		});
 	}
 	
+			function tsforward2(url){
+		return (
+		{
+			externalGraphic:url,
+			graphicWidth:20,
+			graphicHeight:20,
+			graphicXOffset: 4,
+			graphicYOffset: 20,
+			rotation:0
+		});
+	}
+	
+		function tsbackward2(url){
+		return (
+		{
+			externalGraphic:url,
+			graphicWidth:20,
+			graphicHeight:20,
+			graphicXOffset: -4,
+			graphicYOffset: 20,
+			rotation:180
+		});
+	}
+	
 	if (type == "test"){
 		
 		map.addLayers([
@@ -406,7 +442,7 @@ false
 			make_layer(QURL + "?data=node[kerb=raised](bbox);out+skel;", "#ff3300", name="#c#&nbspkerb=raised", 3, false),
 			make_layer(QURL + "?data=node[kerb=flush](bbox);out+skel;", "#0066ff", name="#c#&nbspkerb=flush", 3, false),
 			make_layer(QURL + "?data=node[kerb=no](bbox);out+skel;", "#ffff00", name="#c#&nbspkerb=no<hr>", 3, false),
-*/
+
 			make_layer(
 				QURL + "?data=node[wheelchair=yes](bbox);out+skel;",
 				name="#ex#&nbspwheelchair=yes",
@@ -461,7 +497,21 @@ false
 				name="#ex#&nbspcrossing=uncontrolled",
 				defaultExtPoint("https://d30y9cdsu7xlg0.cloudfront.net/png/35167-200.png"),
 				false
-),
+				
+				*/
+//),
+make_layer(
+QURL + "?data=node['traffic_sign:backward'='ES:P1'](bbox);out+skel;",
+name="#ex#&nbspES:P1 Backward ",
+tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_P1.png"),
+false
+			),
+make_layer(
+QURL + "?data=node['traffic_sign:forward'='ES:P1'](bbox);out+skel;",
+name="#ex#&nbspES:P1 Forward ",
+tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_P1.png"),
+false
+			),
 make_layer(
 QURL + "?data=node['traffic_sign:backward'='ES:R1'](bbox);out+skel;",
 name="#ex#&nbspES:R1 Backward ",
