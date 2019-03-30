@@ -157,6 +157,30 @@ name="#ex#&nbspES:P13b Forward ",
 tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_P13b.png"),
 false
 			),
+make_layer(
+QURL + "?data=node['traffic_sign:backward'='ES:P14a'](bbox);out+skel;",
+name="#ex#&nbspES:P14a Backward ",
+tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_P14a.png"),
+false
+			),
+make_layer(
+QURL + "?data=node['traffic_sign:forward'='ES:P14a'](bbox);out+skel;",
+name="#ex#&nbspES:P14a Forward ",
+tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_P14a.png"),
+false
+			),
+make_layer(
+QURL + "?data=node['traffic_sign:backward'='ES:P14b'](bbox);out+skel;",
+name="#ex#&nbspES:P14b Backward ",
+tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_P14b.png"),
+false
+			),
+make_layer(
+QURL + "?data=node['traffic_sign:forward'='ES:P14b'](bbox);out+skel;",
+name="#ex#&nbspES:P14b Forward ",
+tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_P14b.png"),
+false
+			),
 			//Bromfiets/Fietpaden/Onverpl.fietspaden
             make_layer(
 				QURL + "?data=(way[highway=cycleway][moped~'^designated$|^yes$'](bbox);node(w);way[highway=cycleway]['moped:forward'~'^designated$|^yes$'](bbox);node(w);way[highway=cycleway]['moped:backward'~'^designated$|^yes$'](bbox);node(w););out+skel;",
