@@ -97,6 +97,12 @@ function layerdef(type){
 				defaultSolidLine("red"),
 				false,
 			),
+make_layer(
+QURL + "?data=node['traffic_sign:backward'='ES:R1'](bbox);out+skel;",
+name="#ex#&nbspES:R1 Backward ",
+tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_R1.png"),
+false
+),
 			//Bromfiets/Fietpaden/Onverpl.fietspaden
             make_layer(
 				QURL + "?data=(way[highway=cycleway][moped~'^designated$|^yes$'](bbox);node(w);way[highway=cycleway]['moped:forward'~'^designated$|^yes$'](bbox);node(w);way[highway=cycleway]['moped:backward'~'^designated$|^yes$'](bbox);node(w););out+skel;",
