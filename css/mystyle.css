@@ -48,7 +48,7 @@
 		bottom: 40px;
 		left: 10px;
 	}
-	.titel {
+	.titel .layersDiv {
 		position: absolute;
 		font-family: Verdana;
 		font-size: 10pt;
