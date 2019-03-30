@@ -18,6 +18,8 @@
 		font-size: 11px;
 		overflow-y: auto;
 		overflow-x: auto;
+		height: 100px;
+		width: 200px;
 		}
 	div.olControlAttribution {
 		position: absolute;
