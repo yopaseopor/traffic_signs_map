@@ -42,13 +42,13 @@
 		background-color:rgba(200,200,200,0.6);
 		padding: 5px;
 	}  
-	div.olControlScaleLine {
+	div.olControlScaleLine .layersDiv {
 		font-family: Verdana;
 		font-size: 0.7em;
 		bottom: 40px;
 		left: 10px;
 	}
-	.titel .layersDiv {
+	.titel{
 		position: absolute;
 		font-family: Verdana;
 		font-size: 10pt;
