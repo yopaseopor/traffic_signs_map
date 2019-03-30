@@ -13,16 +13,13 @@
 		bottom: 80px;
 	}
 		div.olControlLayerSwitcher .layersDiv {
-		position: relative;
-		top: 100px;
-		right: 1200px;
 		background-color:  #888888 ;
 		padding-left: 0px;
 		padding-right: 0px;
 		font-size: 11px;
 		overflow-y: auto;
 		overflow-x: auto;
-		height: 300px;
+		height: 500px;
 		width: 250px;
 		}
 	div.olControlAttribution {
