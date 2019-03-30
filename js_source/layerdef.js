@@ -611,15 +611,15 @@ tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_sign
 false
 			),
 make_layer(
-QURL + "?data=node['traffic_sign:backward'='ES:R401'](bbox);out+skel;",
-name="#ex#&nbspES:R401 Backward ",
-tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_R401.png"),
+QURL + "?data=node['traffic_sign:backward'='ES:R401a'](bbox);out+skel;",
+name="#ex#&nbspES:R401a Backward ",
+tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_R401a.png"),
 false
 			),
 make_layer(
-QURL + "?data=node['traffic_sign:forward'='ES:R401'](bbox);out+skel;",
-name="#ex#&nbspES:R401 Forward ",
-tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_R401.png"),
+QURL + "?data=node['traffic_sign:forward'='ES:R401a'](bbox);out+skel;",
+name="#ex#&nbspES:R401a Forward ",
+tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_R401a.png"),
 false
 			),
 make_layer(
@@ -651,7 +651,7 @@ false
 			
 			
 			
-		make_layer(
+/*		make_layer(
 				QURL + "?data=node[crossing=unmarked](bbox);out+skel;",
 				name="#c#&nbspcrossing=unmarked<hr>",
 				{
@@ -664,7 +664,7 @@ false
 				},
 				false
 			),
-/*
+
 	  		//highways
             make_layer(QURL + "?data=(way[highway=cycleway](bbox);node(w);way[highway=path][bicycle=designated](bbox);node(w););out+skel;", "red",name="#l#highway=cycleway", 5, false),
 			  
@@ -816,7 +816,69 @@ false
 		//	dit maakt de layers voor de bugslaag
 			map.addLayers([
 			
-						make_layer(
+//						),
+make_layer(
+QURL + "?data=node['traffic_sign:backward'='ES:S7'](bbox);out+skel;",
+name="#ex#&nbspES:S7 Backward ",
+tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S7.png"),
+false
+			),
+make_layer(
+QURL + "?data=node['traffic_sign:forward'='ES:S7'](bbox);out+skel;",
+name="#ex#&nbspES:S7 Forward ",
+tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S7.png"),
+false
+			),
+make_layer(
+QURL + "?data=node['traffic_sign:backward'='ES:S13'](bbox);out+skel;",
+name="#ex#&nbspES:S13 Backward ",
+tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S13.png"),
+false
+			),
+make_layer(
+QURL + "?data=node['traffic_sign:forward'='ES:S13'](bbox);out+skel;",
+name="#ex#&nbspES:S13 Forward ",
+tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S13.png"),
+false
+			),
+make_layer(
+QURL + "?data=node['traffic_sign:backward'='ES:S15a'](bbox);out+skel;",
+name="#ex#&nbspES:S15a Backward ",
+tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S15a.png"),
+false
+			),
+make_layer(
+QURL + "?data=node['traffic_sign:forward'='ES:S15a'](bbox);out+skel;",
+name="#ex#&nbspES:S15a Forward ",
+tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S15a.png"),
+false
+			),
+make_layer(
+QURL + "?data=node['traffic_sign:backward'='ES:S17'](bbox);out+skel;",
+name="#ex#&nbspES:S17 Backward ",
+tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S17.png"),
+false
+			),
+make_layer(
+QURL + "?data=node['traffic_sign:forward'='ES:S17'](bbox);out+skel;",
+name="#ex#&nbspES:S17 Forward ",
+tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S17.png"),
+false
+			),
+make_layer(
+QURL + "?data=node['traffic_sign:backward'='ES:S19'](bbox);out+skel;",
+name="#ex#&nbspES:S19 Backward ",
+tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S19.png"),
+false
+			),
+make_layer(
+QURL + "?data=node['traffic_sign:forward'='ES:S19'](bbox);out+skel;",
+name="#ex#&nbspES:S19 Forward ",
+tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S19.png"),
+false
+			),
+			
+/*						make_layer(
 				QURL + "?data=node[wheelchair=no](bbox);out+skel;",
 				name="#c#&nbspwheelchair=no",
 				defaultPoint2("red"),
@@ -859,8 +921,6 @@ false
 			),
 			
 			
-		/*	
-		
 			make_layer(QURL + "?data=(relation[route=bicycle](bbox);way[bicycle~'no|use_sidepath'](r);node(w););out+skel;", "#39ff00",name="#l#cycle routes & bicycle=no|use_sidepath",8, true,"5 10"),
 	
 			make_layer(QURL + "?data=(way[highway=cycleway][bicycle=no][moped!~'^yes|^designated'](bbox);node(w););out+skel;", "#ff00d5",name="#l#cycleway/bicycle=no<br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbspNote: temporarily blocked ways?",10, true),
