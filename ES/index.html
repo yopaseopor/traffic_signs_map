@@ -174,13 +174,17 @@ function init(){
   <!-- MODIFICAR Home table | tabla de inicio | taula d'inici  IMPORTANT <td id "name" -->
     <table width="100%" border="0" cellspacing="0" cellpadding="6" height="100%">
     <tr> 
-      <td colspan="6" class="kaartnaam" align='center'>Extended Traffic signs on OSM - SPAIN - BETTER FIREFOX<a href='https://wiki.openstreetmap.org/wiki/Proposed_features/Extended_traffic_signs_tagging' target='_blank'><img src='img/help.gif'></a></td><td>		                           	</td>
+      <td colspan="6" class="kaartnaam" align='center'>Extended Traffic signs on OSM - SPAIN<a href='https://wiki.openstreetmap.org/wiki/Proposed_features/Extended_traffic_signs_tagging' target='_blank'><img src='img/help.gif'></a></td><td>		                           	</td>
 	  </tr>
-	  <td colspan="6" class="kaartnaam" align='center'>PLEASE STAND BY...Key Traffic signs on OSM<a href='https://yopaseopor.github.io/traffic_signs_map/zones/index.html' target='_blank'><img src='img/help.gif'></a></td><td>	             	</td>
+	  <td colspan="6" class="kaartnaam" align='center'>Key Traffic signs on OSM<a href='https://yopaseopor.github.io/traffic_signs_map/zones/index.html' target='_blank'><img src='img/help.gif'></a></td><td>	             	</td>
 	  </tr>
     
     <tr> 
       <td id="trafficsigns" class="dorment" style="border-right:1px solid #000000;" onclick="switchtab(this.id,tabtype.name);">Traffic signs</td>
+	   <td id="warning" class="dorment" style="border-right:1px solid #000000;" onclick="switchtab(this.id,tabtype.name);">Warning</td>
+      <td id="regulatory" class="dorment" style="border-right:1px solid #000000;" onclick="switchtab(this.id,tabtype.name);">Regulatory</td>
+<!--      <td id="route" class="dorment" style="border-right:1px solid #000000;" onclick="switchtab(this.id,tabtype.name);">Information</td>-->
+	  <td id="information" class="dorment" style="border-right:1px solid #000000;" onclick="switchtab(this.id,tabtype.name);">Information</td>
       <td id="clearall" class="action" style="border-right:1px solid #000000;" onclick="tabtype.clearall();">clear layers</td>	  
 <!-- tab voor gps positie, is leuk kan ook weg natuurlijk -->
 	  <td id="getpos" class="dorment" onclick="getPos();"><img src="img/gps.png"></td>
