@@ -8932,14 +8932,6 @@ QURL + "?data=node['traffic_sign:backward'='ES:trunk'](bbox);out+skel;",
 name="#ex#&nbspES:trunkbackward ",
 tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_trunk.png"),
 false
-
-
-
-make_layer(
-QURL + "?data=node['traffic_sign:forward'='ES:P26'](bbox);out+skel;",
-name="#ex#&nbspES:P26 Forward ",
-tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_P26.png"),
-false
 			),
 
 		]);
