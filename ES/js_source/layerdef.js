@@ -87,7 +87,7 @@ function layerdef(type){
 		});
 	}
 
-	if (type == "cycleways"){
+	if (type == "trafficsigns"){
 		//	dit maakt de layers voor de cycleway tags
 		map.addLayers([
 		//highway=cycleway
