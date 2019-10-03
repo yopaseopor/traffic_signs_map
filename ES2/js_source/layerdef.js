@@ -1862,15 +1862,6 @@ tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_sig
 false
 
 ),
-
-
-		]);
-	}
-	
-	if (type == "regulatory"){
-		
-		map.addLayers([
-
 make_layer(
 QURL + "?data=node['traffic_sign:forward'='ES:primary'](bbox);out+skel;",
 name="#ex#&nbspES:primaryforward ",
@@ -4795,14 +4786,7 @@ name="#ex#&nbspES:Ruta_europeabackward ",
 tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_Ruta_europea.png"),
 false
 
-			),	
-					 
-			]);
-	}	
-
-	if (type == "information"){
-		
-		map.addLayers([
+),
 make_layer(
 QURL + "?data=node['traffic_sign:forward'='ES:S1'](bbox);out+skel;",
 name="#ex#&nbspES:S1forward ",
@@ -8948,12 +8932,10 @@ QURL + "?data=node['traffic_sign:backward'='ES:trunk'](bbox);out+skel;",
 name="#ex#&nbspES:trunkbackward ",
 tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_trunk.png"),
 false
-			
 			),
-			
-			]);
-	}			
 
+		]);
+	}
 
 	/*
 	 * base Point Parameters:
