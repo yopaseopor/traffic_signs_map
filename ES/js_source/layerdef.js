@@ -12,50 +12,80 @@
 //
 //=====================
 // ====================
+// COPIAR 	
+// COPIAR Copy this if you want a line
+// COPIAR
+// COPIAR	function nameofthefunction(color){
+// COPIAR		return(
+// COPIAR		{
+// COPIAR			strokeColor:"color",
+// COPIAR			strokeOpacity:0.7,
+// COPIAR			strokeWidth:2,
+// COPIAR			strokeLinecap: "square",
+// COPIAR			strokeDashstyle: "1 0"
+// COPIAR		});
+// COPIAR	}
+// COPIAR
+// COPIAR Copy this if you want a point
+// COPIAR	function nameofthefunction(color){
+// COPIAR		return (
+// COPIAR		{
+// COPIAR			strokeColor:color,
+// COPIAR			strokeOpacity:0.9,
+// COPIAR			strokeWidth:3,
+// COPIAR			pointRadius:5,
+// COPIAR			fillColor:"white",
+// COPIAR			fillOpacity:0.75
+// COPIAR		});
+// COPIAR	}
+// COPIAR Copy this if you want an external icon
+// COPIAR 		function tsforward(url){
+// COPIAR 		return (
+// COPIAR 		{
+// COPIAR 			externalGraphic:url,
+// COPIAR 			graphicOpacity: 0.75,
+// COPIAR 			graphicWidth:20,
+// COPIAR 			graphicHeight:20,
+// COPIAR 			graphicXOffset: 4,
+// COPIAR 			graphicYOffset: 0,
+// COPIAR 			rotation:0
+// COPIAR 		});
+// COPIAR 	}
 //	
-//	COPIAR	if (type == "nameofthe td id"){                         of index.html
-//  COPIAR	map.addLayers([
-//	COPIAR  make_layer(QURL + "?data=(way[key=value](bbox);node(w);way[otherkey=othervalue](bbox);node(w););out+skel;", "#colorinRGB",name="#typeofline#nameyouwillseeattheslector",circleradius/width of the line,default active (boolean value),"start end of the line@transparency"),
+// COPIAR	if (type == "nameofthetdid"){   of index.html
+// COPIAR	map.addLayers([
+// COPIAR  make_layer(QURL + "?data=(way[key=value](bbox);node(w);way[otherkey=othervalue](bbox);node(w););out+skel;",
+// COPIAR  name="#typeoflineoriconinlegend#HTML code you want to show"
+// COPIAR  nameofthefunction("http://urloftheicon" or "color"),
+// COPIAR  false
+// COPIAR	),
+// COPIAR  from "make_layer" to ), you can replicate to generate every overpass query then... (next line)
 // COPIAR			]);
 // COPIAR			
 // COPIAR		}
-// INSTRUCCIONS #colorinRGB: RGB color for the line/cercle
-// INSTRUCCIONS #typeofline#: #l# = line, #dl#=double line, #d# = uncontinuous line, #c#= transparent, #co# = cercle opaque
-// INSTRUCCIONS start/end of the line pixels in which start the line
-// INSTRUCCIONS default active option true enabled false unabled
-// INSTRUCCIONS transparency = @0-1 transparency of the line
+// VOCABULARI nameofthefuncition= name of the function, Each function with custom parameters has to have an unique name.
+// VOCABULARI
+// VOCABULARI strokeColor=color of the line
+// VOCABULARI strokeOpacity=0-1 transparency of the line
+// VOCABULARI strokeWidth=Width of the line
+// VOCABULARI strokeLinecap=Form of the cap of the line
+// VOCABULARI strokeDashstyle=start/end of the line pixels in which start the line, if it is discontinuous
+// VOCABULARI pointRadius=number in píxels for the radius of the point
+// VOCABULARI fillColor=color you want to fill the cercle
+// VOCABULARI fillOpacity=0-1 transparency of the filled cercle
+// VOCABULARI graphicOpacity=0-1 transparency of the icon
+// VOCABULARI graphicWidth=in pixels, width of the icon
+// VOCABULARI graphicHeight=in pixels, height of the icon
+// VOCABULARI graphicXOffset=in pixels, offset in x from the point of the icon
+// VOCABULARI graphicYOffset=in pixels, offset in y from the point of the icon
+// VOCABULARI rotation:in grades, rotation angle of the icon
+// VOCABULARI nameofthe td id you will find in index.html
+// VOCABULARI QURL + "?data=overpass query"
+// VOCABULARI #typeoflineoriconinlegend#: #l# = line, #dl#=discontinuous line, #d# = dashed line, #c#= cercle,#to# = point #ex#=external icon
+// VOCABULARI nameofthefunction("color")
+// VOCABULARI false or true default active option true enabled false unabled
+// VOCABULARI Also you can custom the option to show the legend
 //
-//=====================
-// ====================
-//	
-//	COPIAR	if (type == "nombredelaidtd"){                         nombre de la id de la td  de index.html
-//  COPIAR	map.addLayers([
-//	COPIAR  make_layer(QURL + "?data=(nodovíaorelación[clave=valor](bbox);node(w);otronodovíaorelación[otraclave=otrovalor](bbox);node(w););out+skel;", "#colorenRGB",name="#tipodelínea#elnombrequedeseesparaelselector",radiodelcírculo/anchuradelínea,selectoractivooinactivopordefecto (valor booleano),"inicio final de la línea@transparencia"),
-// COPIAR			]);
-// COPIAR			
-// COPIAR		}
-// INSTRUCCIONS #colorenRGB: código RGB del color para la línea/círculo
-// INSTRUCCIONS #tipodelínea#: #l# = línea, #dl#=línea doble, #d# = discontinua, #c#= transparente, #co# = círculo opaco
-// INSTRUCCIONS inicio/fin de la discontinuidad de la línea
-// INSTRUCCIONS selector activado por defecto: true activado false desactivado
-// INSTRUCCIONS transparencia = @0-1 transparencia de la línea
-//
-//=====================
-// ====================
-//	
-//	COPIAR	if (type == "nombredelaidtd"){                         nom de la id de la td  d'index.html
-//  COPIAR	map.addLayers([
-//	COPIAR  make_layer(QURL + "?data=(nodeviaorelació[clau=valor](bbox);node(w);altreviaonodeorelació[altraclau=altrevalor](bbox);node(w););out+skel;", "#colorenRGB",name="#tipusdelínia#elnomquedesitgispelselector",radidelcercle/ampladadelínia,selectoractiuperdefecte (valor booleà),"inici final de la línia@transpareècia"),
-// COPIAR			]);
-// COPIAR			
-// COPIAR		}
-// INSTRUCCIONS #colorenRGB: codi RGB del color per a la línia/cercle
-// INSTRUCCIONS #tipusdelínia#: #l# = línia, #dl#=línia doble, #d# = discontínua, #c#= transparent, #co# = cercle opac
-// INSTRUCCIONS inici/fi de la discontinuitat de la línia
-// INSTRUCCIONS selector activat per defecte: true activat false desactivat
-// INSTRUCCIONS transparència = @0-1 transparència de la línia
-//
-//=====================
 function layerdef(type){
 
 	/*
@@ -217,67 +247,7 @@ name="#ex#&nbspES:P26 Forward ",
 tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_P26.png"),
 false
 			),
-			//Bromfiets/Fietpaden/Onverpl.fietspaden
-//            make_layer(
-//				QURL + "?data=(way[highway=cycleway][moped~'^designated$|^yes$'](bbox);node(w);way[highway=cycleway]['moped:forward'~'^designated$|^yes$'](bbox);node(w);way[highway=cycleway]['moped:backward'~'^designated$|^yes$'](bbox);node(w););out+skel;",
-//				name="#l#cycleway, moped=yes",
-//				defaultSolidLine("purple"),
-//				false
-//			),
-			  
-//            make_layer(
-//				QURL + "?data=(way[highway=cycleway][moped=no](bbox);node(w););out+skel;",
-//				name="#dl#cycleway moped=no",
-//				defaultDashedLine("cyan"),
-//				false
-//			),
-			
- //           make_layer(
-//				QURL + "?data=(way[highway=cycleway][mofa=no](bbox);node(w););out+skel;", 
-//				name="#l#cycleway mofa=no",
-//				defaultSolidLine("cyan"),
-//				false),
-			
-/*			  
-			// kenmerken met cycleway
-			  
-			make_layer(QURL + "?data=(way[cycleway=cyclestreet](bbox);node(w);way[bicycle_road=yes](bbox);node(w);way[cyclestreet=yes](bbox);node(w););out+skel;","#ff65d5",name="#l#cyclestreet", 8, false),
-			
-			make_layer(QURL + "?data=(way[cycleway~'track'][highway!=cycleway](bbox);node(w);way['cycleway:right'~'track'](bbox);node(w);way['cycleway:left'~'track'](bbox);node(w););out+skel;", "#ff6541",name="#l#cycleway=track", 6, false,"@0.9"),
-			
-         	make_layer(QURL + "?data=(way[cycleway=lane](bbox);node(w);way[cycleway=opposite_lane](bbox);node(w);way['cycleway:right'=opposite_lane](bbox);node(w);way['cycleway:left'=opposite_lane](bbox);node(w);way['cycleway:left'=lane](bbox);node(w););out+skel;","#ff6541",name="#dl#cycleway=lane", 6, false,"6 10@0.9"),
 
-			make_layer(QURL + "?data=(way[cycleway='shared_lane'](bbox);node(w);way[cycleway=share_busway](bbox);node(w);way[cycleway=opposite_share_busway](bbox);node(w);way['cycleway:left'='shared_lane'](bbox);node(w);way['cycleway:right'='shared_lane'](bbox);node(w););out+skel;","red",name="#d#cycleway=shared_lane", 2, false,"6 10"),
-          	
-		
-			//kenmerken met oneway
-			make_layer(QURL + "?data=(way[highway~'^unclas|^living|^resid|road|cycleway'][oneway~'yes|true|1|-1'][cycleway!~'.'][bicycle!=no]['bicycle:oneway'!=no]['oneway:bicycle'!=no](bbox);node(w);way['bicycle:oneway'~'yes|true|1|-1'](bbox);node(w);way['oneway:bicycle'~'yes|true|1|-1'](bbox);node(w););out+skel;", "blue",name="#dl#oneway street", 3, false,"6 10"),
-			
-			
-            make_layer(QURL + "?data=(way['oneway:bicycle'=no](bbox);node(w);way[cycleway~'opposite'](bbox);node(w);way['bicycle:oneway'= no](bbox);node(w););out+skel;", "green",name="#dl#cycleway=opposite or<br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsponeway:bicyle=no", 3, false,"6 10"),
-
-
-			  
-			make_layer(QURL + "?data=(way[bicycle~'^designated$|^yes$'][highway~'^footway$|^pedestrian$|^path$|^track$|^steps$'](bbox);node(w);way['ramp:bicycle'=yes](bbox);node(w);node[bicycle=yes][barrier!=bollard](bbox););out+skel;", "#39ff20",name="#l#bicycle=yes & footway,<br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsppath, track, steps", 5, false),
-
-			//pois
-			make_a_layer(QURL + "?data=(node[shop=bicycle](bbox);node[amenity=bicycle_repair_station](bbox);way[shop=bicycle](bbox);node(w););out;", "#0000a0", name="#c#shop=bicycle/repair station", 0.7, false),
-			make_layer(QURL + "?data=node[amenity~'bicycle'][amenity!=bicycle_repair_station](bbox);out+skel;(way[amenity~'bicycle'](bbox);node(w););out+skel;", "#39ffd5",name="#c#&nbspbicycle_parking/rental", 4, false),
-			make_layer(QURL + "?data=node[barrier=bollard](bbox);out+skel;", "red", name="#c#&nbspbollard", 3, false),			  
-			make_layer(QURL + "?data=node[barrier][barrier!=bollard](bbox);out+skel;", "#bd9541", name="#c#&nbspother barrier<hr>", 3, false),
-			
-
-			
-
-			// non cyclable ways
-			make_layer(QURL + "?data=(way[bicycle=dismount](bbox);node(w);node[bicycle=dismount](bbox);node(w););out+skel;","yellow",name="#dl#bicycle=dismount", 4, false,"6 10"),
-			
-			make_layer(QURL + "?data=(way[bicycle~'no|use_sidepath'](bbox);node(w);way[highway][access~'^no|^priv'][vehicle!~'yes'][bicycle!~'^no|^yes|^desig|^offic|^destin|^permis'][mtb!~'^yes|^desig|^offic|^destin|^permis']['mtb:scale'!~'^'](bbox);node(w);way[highway~'^foot|^path|^pedes|^platform|^steps|^bridleway|^prop|^constr'][access! ~'^no|^priv'][bicycle!~'^no|^yes|^desig|^offic|^destin|^permis'][mtb!~'^yes|^desig|^offic|^destin|^permis']['ramp:bicycle'!~'yes'](bbox);node(w);way[highway=track][horse=designated][access! ~'^no|^priv'][bicycle!~'^no|^yes|^desig|^offic|^destin|^permis'][mtb!~'^yes|^desig|^offic|^destin|^permis']['mtb:scale'!~'^'][route!=mtb](bbox);node(w););out+skel;", "#393020",name="<img style='vertical-align: middle;background-color:#393020;' src='img/line.gif'> 'non cycleable' ways", 7, false,"@0.5"),
-
-            make_layer(QURL + "?data=(way[bicycle=use_sidepath](bbox);node(w););out+skel;","#bd65d5",name="#dl#bicycle=use_sidepath", 4, false,"6 10"),
-			
-			make_layer(QURL + "?data=(way[bicycle=no](bbox);node(w););out+skel;","black",name="#dl#bicycle=no", 4, false,"6 10")
-*/
 		]);
 	}
 
@@ -433,287 +403,7 @@ false
 			rotation:180
 		});
 	}
-	
-	if (type == "test"){
-		
-		map.addLayers([
-/*			
-			make_layer(QURL + "?data=node[kerb=lowered](bbox);out+skel;", "#66ff66", name="#c#&nbspkerb=lowered", 3, false),
-			make_layer(QURL + "?data=node[kerb=raised](bbox);out+skel;", "#ff3300", name="#c#&nbspkerb=raised", 3, false),
-			make_layer(QURL + "?data=node[kerb=flush](bbox);out+skel;", "#0066ff", name="#c#&nbspkerb=flush", 3, false),
-			make_layer(QURL + "?data=node[kerb=no](bbox);out+skel;", "#ffff00", name="#c#&nbspkerb=no<hr>", 3, false),
-
-			make_layer(
-				QURL + "?data=node[wheelchair=yes](bbox);out+skel;",
-				name="#ex#&nbspwheelchair=yes",
-				defaultExtPoint("https://image.flaticon.com/icons/png/512/9/9285.png"),
-				false
-			),
-
-			make_layer(
-				QURL + "?data=node[wheelchair=no](bbox);out+skel;",
-				name="#c#&nbspwheelchair=no",
-				defaultPoint("red"),
-				false
-			),
-
-			make_layer(
-				QURL + "?data=node[wheelchair=designated](bbox);out+skel;",
-				name="#c#&nbspwheelchair=designated",
-				defaultPoint("blue"),
-				false
-			),
-
-			make_layer(
-				QURL + "?data=node[wheelchair=limited](bbox);out+skel;",
-				name="#c#&nbspwheelchair=limited<hr>",
-				defaultPoint("yellow"),
-				false
-			),
-
-			make_layer(
-				QURL + "?data=node['obstacle:wheelchair'=yes](bbox);out+skel;",
-				name="#c#&nbspobstacle:wheelchair=yes<hr>",
-				defaultPoint("black"),
-				false
-			),
-
-			make_layer(
-				QURL + "?data=node[crossing=traffic_signals](bbox);out+skel;",
-				name="#ex#&nbspcrossing=traffic_signals",
-				defaultExtPoint("http://icons.iconarchive.com/icons/google/noto-emoji-travel-places/1024/42571-vertical-traffic-light-icon.png"),
-				false
-			),
-
-			make_layer(
-				QURL + "?data=node[crossing=no](bbox);out+skel;",
-				name="#c#&nbspcrossing=no",
-				defaultPoint("red"),
-				false
-			),
-
-			make_layer(
-				QURL + "?data=node[crossing=uncontrolled](bbox);out+skel;",
-				name="#ex#&nbspcrossing=uncontrolled",
-				defaultExtPoint("https://d30y9cdsu7xlg0.cloudfront.net/png/35167-200.png"),
-				false
-				
-				*/
-//),
-make_layer(
-QURL + "?data=node['traffic_sign:backward'='ES:R1'](bbox);out+skel;",
-name="#ex#&nbspES:R1 Backward ",
-tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_R1.png"),
-false
-			),
-make_layer(
-QURL + "?data=node['traffic_sign:forward'='ES:R1'](bbox);out+skel;",
-name="#ex#&nbspES:R1 Forward ",
-tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_R1.png"),
-false
-			),
 			
-make_layer(
-QURL + "?data=node['traffic_sign'='ES:R1'](bbox);out+skel;",
-name="#ex#&nbspES:R1",
-ts("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_R1.png"),
-false
-			),
-make_layer(
-QURL + "?data=node['traffic_sign:backward'='ES:R2'](bbox);out+skel;",
-name="#ex#&nbspES:R2 Backward ",
-tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_R2.png"),
-false
-			),
-make_layer(
-QURL + "?data=node['traffic_sign:forward'='ES:R2'](bbox);out+skel;",
-name="#ex#&nbspES:R2 Forward ",
-tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_R2.png"),
-false
-			),
-make_layer(
-QURL + "?data=node['traffic_sign:2:forward'='ES:R2'](bbox);out+skel;",
-name="#ex#&nbspES:R2:2:Forward ",
-ts2forward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_R2.png"),
-false
-			),
-			
-make_layer(
-QURL + "?data=node['traffic_sign'='ES:R2'](bbox);out+skel;",
-name="#ex#&nbspES:R2",
-ts("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_R2.png"),
-false
-			),
-make_layer(
-QURL + "?data=node['traffic_sign:backward'='ES:R101'](bbox);out+skel;",
-name="#ex#&nbspES:R101 Backward ",
-tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_R101.png"),
-false
-			),
-make_layer(
-QURL + "?data=node['traffic_sign:backward'='ES:R302'](bbox);out+skel;",
-name="#ex#&nbspES:R302 Backward ",
-tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_R302.png"),
-false
-			),
-make_layer(
-QURL + "?data=node['traffic_sign:forward'='ES:R302'](bbox);out+skel;",
-name="#ex#&nbspES:R302 Forward ",
-tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_R302.png"),
-false
-			),
-make_layer(
-QURL + "?data=node['traffic_sign:backward'='ES:R303'](bbox);out+skel;",
-name="#ex#&nbspES:R303 Backward ",
-tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_R303.png"),
-false
-			),
-make_layer(
-QURL + "?data=node['traffic_sign:forward'='ES:R303'](bbox);out+skel;",
-name="#ex#&nbspES:R303 Forward ",
-tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_R303.png"),
-false
-			),
-make_layer(
-QURL + "?data=node['traffic_sign:backward'='ES:R305'](bbox);out+skel;",
-name="#ex#&nbspES:R305 Backward ",
-tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_R305.png"),
-false
-			),
-make_layer(
-QURL + "?data=node['traffic_sign:forward'='ES:R305'](bbox);out+skel;",
-name="#ex#&nbspES:R305 Forward ",
-tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_R305.png"),
-false
-			),
-make_layer(
-QURL + "?data=node['traffic_sign:backward'='ES:R400a'](bbox);out+skel;",
-name="#ex#&nbspES:R400a Backward ",
-tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_R400a.png"),
-false
-			),
-make_layer(
-QURL + "?data=node['traffic_sign:forward'='ES:R400a'](bbox);out+skel;",
-name="#ex#&nbspES:R400a Forward ",
-tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_R400a.png"),
-false
-			),
-make_layer(
-QURL + "?data=node['traffic_sign:backward'='ES:R400c'](bbox);out+skel;",
-name="#ex#&nbspES:R400c Backward ",
-tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_R400c.png"),
-false
-			),
-make_layer(
-QURL + "?data=node['traffic_sign:forward'='ES:R400c'](bbox);out+skel;",
-name="#ex#&nbspES:R400c Forward ",
-tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_R400c.png"),
-false
-			),
-make_layer(
-QURL + "?data=node['traffic_sign:backward'='ES:R401a'](bbox);out+skel;",
-name="#ex#&nbspES:R401a Backward ",
-tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_R401a.png"),
-false
-			),
-make_layer(
-QURL + "?data=node['traffic_sign:forward'='ES:R401a'](bbox);out+skel;",
-name="#ex#&nbspES:R401a Forward ",
-tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_R401a.png"),
-false
-			),
-make_layer(
-QURL + "?data=node['traffic_sign:backward'='ES:R501'](bbox);out+skel;",
-name="#ex#&nbspES:R501 Backward ",
-tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_R501.png"),
-false
-			),
-make_layer(
-QURL + "?data=node['traffic_sign:forward'='ES:R501'](bbox);out+skel;",
-name="#ex#&nbspES:R501 Forward ",
-tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_R501.png"),
-false
-			),
-make_layer(
-QURL + "?data=node['traffic_sign:backward'='ES:R502'](bbox);out+skel;",
-name="#ex#&nbspES:R502 Backward ",
-tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_R502.png"),
-false
-			),
-make_layer(
-QURL + "?data=node['traffic_sign:forward'='ES:R502'](bbox);out+skel;",
-name="#ex#&nbspES:R502 Forward ",
-tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_R502.png"),
-false
-			),
-			
-			
-			
-			
-			
-/*		make_layer(
-				QURL + "?data=node[crossing=unmarked](bbox);out+skel;",
-				name="#c#&nbspcrossing=unmarked<hr>",
-				{
-					strokeColor:"grey",
-					strokeOpacity:0.9,
-					strokeWidth:2,
-					pointRadius:4,
-					fillColor:"blue",
-					fillOpacity:0.75
-				},
-				false
-			),
-
-	  		//highways
-            make_layer(QURL + "?data=(way[highway=cycleway](bbox);node(w);way[highway=path][bicycle=designated](bbox);node(w););out+skel;", "red",name="#l#highway=cycleway", 5, false),
-			  
-			make_layer(QURL + "?data=(way[highway=footway](bbox);node(w););out+skel;","#bd958b",name="#l#highway=footway", 5, false,"@0.8"),
-			
-			make_layer(QURL + "?data=(way[highway=path][bicycle!~'^designated'](bbox);node(w););out+skel;","#7b9541",name="#l#highway=path", 5, false,"@0.8"),
-			
-			make_layer(QURL + "?data=(way[highway=pedestrian](bbox);node(w););out+skel;", "#ff6500",name="#l#highway=pedestrian",5, false),
-			  
-			// tracks & tracktype
-			make_layer(QURL + "?data=(way[highway=track](bbox);node(w););out+skel;","#bd9520",
-			name="#l#highway=track", 5, false,"@0.8"),
-			
-            make_layer(QURL + "?data=(way[tracktype=grade1](bbox);node(w););out+skel;","#330000",name="#l#tracktype=grade1", 2, false),
-			
-			make_layer(QURL + "?data=(way[tracktype=grade2](bbox);node(w););out+skel;","#330000",name="#dl#tracktype=grade2", 3, false,"4 8"),
-			
-			make_layer(QURL + "?data=(way[tracktype=grade3](bbox);node(w););out+skel;","#A52A2A",name="#dl#tracktype=grade3", 2, false,"4 8"),
-			
-			make_layer(QURL + "?data=(way[tracktype=grade4](bbox);node(w););out+skel;","#A52A2A",name="#d#tracktype=grade4", 2, false,"1 6"),
-			
-			make_layer(QURL + "?data=(way[tracktype=grade5](bbox);node(w););out+skel;","black",name="#d#tracktype=grade5", 1, false,"1 3"),
-			
-			make_layer(QURL + "?data=(way[highway=track][tracktype!~'^grade'](bbox);node(w););out+skel;","white",name="#dl#tracktype unknown", 2, false,"4 8"),
-			
-			make_layer(QURL + "?data=(way[highway=track][cycleway](bbox);node(w););out+skel;","#ff008b",name="#dl#highway=track &<br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspcycleway=*",5, false,"4 8"),
-
-			// surface on paths & tracks
-			make_layer(QURL + "?data=(way[highway~'^cycle|^foot|^path|^pedestrian|^track'][surface~'^asphalt|^pav|^concrete'](bbox);node(w););out+skel;","#000080",name="#l#surface = paved", 2, false,"@0.8"),
-			 
-			make_layer(QURL + "?data=(way[surface~'^cob'](bbox);node(w););out+skel;","#000080",name="#dl#surface=cobblestone", 4, false,"4 8@0.8"),
-			
-			make_layer(QURL + "?data=(way[surface~'^fine_gravel|.shell.'](bbox);node(w););out+skel;","#3965d5",name="#dl#surface=fine_gravel/shells", 3, false,"4 8@0.8"),
-			
-			// semi paved
-			make_layer(QURL + "?data=(way[surface~'^gravel|^compact|^loam'](bbox);node(w););out+skel;","yellow",name="#dl#surface = semi-paved", 3, false,"4 8@0.8"),
-			
-			// unpaved
-			make_layer(QURL + "?data=(way[surface~'^grass|^ground|^unpaved|^dirt|^earth|^sand|^woodchips|^pebble'](bbox);node(w););out+skel;","yellow",name="#d#surface = unpaved", 2, false,"1 3@0.8"),
-
-			 // smoothness
-			 make_layer(QURL + "?data=(way[smoothness=bad](bbox);node(w););out+skel;","#00FFFF", 
-			 name="#dl#smoothness=bad", 3, false,"4 8"),
-			 
-			 make_layer(QURL + "?data=(way[smoothness~'^very_bad|^horrible|^very_horrible|^impassable'](bbox);node(w););out+skel;","#00FFFF", 
-			 name="#l#smoothness very bad", 4, false)
-*/			 
-			]);
-	}			
 		if (type == "route"){
 
 			map.addLayers([
