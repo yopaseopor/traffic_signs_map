@@ -2510,109 +2510,6 @@ name="#ex#&nbspES:S20backward ",
 tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S20.png"),
 false
 
-),
-make_layer(
-QURL + "?data=node['traffic_sign:forward'='ES:S200'](bbox);out+skel;",
-name="#ex#&nbspES:S200forward ",
-tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S200.png"),
-false
-),
-make_layer(
-QURL + "?data=node['traffic_sign:backward'='ES:S200'](bbox);out+skel;",
-name="#ex#&nbspES:S200backward ",
-tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S200.png"),
-false
-
-),
-make_layer(
-QURL + "?data=node['traffic_sign:forward'='ES:S21'](bbox);out+skel;",
-name="#ex#&nbspES:S21forward ",
-tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S21.png"),
-false
-),
-make_layer(
-QURL + "?data=node['traffic_sign:backward'='ES:S21'](bbox);out+skel;",
-name="#ex#&nbspES:S21backward ",
-tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S21.png"),
-false
-
-),
-make_layer(
-QURL + "?data=node['traffic_sign:forward'='ES:S22'](bbox);out+skel;",
-name="#ex#&nbspES:S22forward ",
-tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S22.png"),
-false
-),
-make_layer(
-QURL + "?data=node['traffic_sign:backward'='ES:S22'](bbox);out+skel;",
-name="#ex#&nbspES:S22backward ",
-tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S22.png"),
-false
-
-),
-make_layer(
-QURL + "?data=node['traffic_sign:forward'='ES:S220'](bbox);out+skel;",
-name="#ex#&nbspES:S220forward ",
-tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S220.png"),
-false
-),
-make_layer(
-QURL + "?data=node['traffic_sign:backward'='ES:S220'](bbox);out+skel;",
-name="#ex#&nbspES:S220backward ",
-tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S220.png"),
-false
-
-),
-make_layer(
-QURL + "?data=node['traffic_sign:forward'='ES:S222'](bbox);out+skel;",
-name="#ex#&nbspES:S222forward ",
-tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S222.png"),
-false
-),
-make_layer(
-QURL + "?data=node['traffic_sign:backward'='ES:S222'](bbox);out+skel;",
-name="#ex#&nbspES:S222backward ",
-tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S222.png"),
-false
-
-),
-make_layer(
-QURL + "?data=node['traffic_sign:forward'='ES:S222a'](bbox);out+skel;",
-name="#ex#&nbspES:S222aforward ",
-tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S222a.png"),
-false
-),
-make_layer(
-QURL + "?data=node['traffic_sign:backward'='ES:S222a'](bbox);out+skel;",
-name="#ex#&nbspES:S222abackward ",
-tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S222a.png"),
-false
-
-),
-make_layer(
-QURL + "?data=node['traffic_sign:forward'='ES:S224'](bbox);out+skel;",
-name="#ex#&nbspES:S224forward ",
-tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S224.png"),
-false
-),
-make_layer(
-QURL + "?data=node['traffic_sign:backward'='ES:S224'](bbox);out+skel;",
-name="#ex#&nbspES:S224backward ",
-tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S224.png"),
-false
-
-),
-make_layer(
-QURL + "?data=node['traffic_sign:forward'='ES:S225'](bbox);out+skel;",
-name="#ex#&nbspES:S225forward ",
-tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S225.png"),
-false
-),
-make_layer(
-QURL + "?data=node['traffic_sign:backward'='ES:S225'](bbox);out+skel;",
-name="#ex#&nbspES:S225backward ",
-tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S225.png"),
-false
 
 ),
 make_layer(
@@ -2837,266 +2734,6 @@ false
 
 ),
 make_layer(
-QURL + "?data=node['traffic_sign:forward'='ES:S230'](bbox);out+skel;",
-name="#ex#&nbspES:S230forward ",
-tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S230.png"),
-false
-),
-make_layer(
-QURL + "?data=node['traffic_sign:backward'='ES:S230'](bbox);out+skel;",
-name="#ex#&nbspES:S230backward ",
-tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S230.png"),
-false
-
-),
-make_layer(
-QURL + "?data=node['traffic_sign:forward'='ES:S230a'](bbox);out+skel;",
-name="#ex#&nbspES:S230aforward ",
-tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S230a.png"),
-false
-),
-make_layer(
-QURL + "?data=node['traffic_sign:backward'='ES:S230a'](bbox);out+skel;",
-name="#ex#&nbspES:S230abackward ",
-tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S230a.png"),
-false
-
-),
-make_layer(
-QURL + "?data=node['traffic_sign:forward'='ES:S232'](bbox);out+skel;",
-name="#ex#&nbspES:S232forward ",
-tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S232.png"),
-false
-),
-make_layer(
-QURL + "?data=node['traffic_sign:backward'='ES:S232'](bbox);out+skel;",
-name="#ex#&nbspES:S232backward ",
-tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S232.png"),
-false
-
-),
-make_layer(
-QURL + "?data=node['traffic_sign:forward'='ES:S232a'](bbox);out+skel;",
-name="#ex#&nbspES:S232aforward ",
-tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S232a.png"),
-false
-),
-make_layer(
-QURL + "?data=node['traffic_sign:backward'='ES:S232a'](bbox);out+skel;",
-name="#ex#&nbspES:S232abackward ",
-tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S232a.png"),
-false
-
-),
-make_layer(
-QURL + "?data=node['traffic_sign:forward'='ES:S235'](bbox);out+skel;",
-name="#ex#&nbspES:S235forward ",
-tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S235.png"),
-false
-),
-make_layer(
-QURL + "?data=node['traffic_sign:backward'='ES:S235'](bbox);out+skel;",
-name="#ex#&nbspES:S235backward ",
-tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S235.png"),
-false
-
-),
-make_layer(
-QURL + "?data=node['traffic_sign:forward'='ES:S235a'](bbox);out+skel;",
-name="#ex#&nbspES:S235aforward ",
-tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S235a.png"),
-false
-),
-make_layer(
-QURL + "?data=node['traffic_sign:backward'='ES:S235a'](bbox);out+skel;",
-name="#ex#&nbspES:S235abackward ",
-tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S235a.png"),
-false
-
-),
-make_layer(
-QURL + "?data=node['traffic_sign:forward'='ES:S24'](bbox);out+skel;",
-name="#ex#&nbspES:S24forward ",
-tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S24.png"),
-false
-),
-make_layer(
-QURL + "?data=node['traffic_sign:backward'='ES:S24'](bbox);out+skel;",
-name="#ex#&nbspES:S24backward ",
-tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S24.png"),
-false
-
-),
-make_layer(
-QURL + "?data=node['traffic_sign:forward'='ES:S242'](bbox);out+skel;",
-name="#ex#&nbspES:S242forward ",
-tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S242.png"),
-false
-),
-make_layer(
-QURL + "?data=node['traffic_sign:backward'='ES:S242'](bbox);out+skel;",
-name="#ex#&nbspES:S242backward ",
-tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S242.png"),
-false
-
-),
-make_layer(
-QURL + "?data=node['traffic_sign:forward'='ES:S242a'](bbox);out+skel;",
-name="#ex#&nbspES:S242aforward ",
-tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S242a.png"),
-false
-),
-make_layer(
-QURL + "?data=node['traffic_sign:backward'='ES:S242a'](bbox);out+skel;",
-name="#ex#&nbspES:S242abackward ",
-tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S242a.png"),
-false
-
-),
-make_layer(
-QURL + "?data=node['traffic_sign:forward'='ES:S242b'](bbox);out+skel;",
-name="#ex#&nbspES:S242bforward ",
-tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S242b.png"),
-false
-),
-make_layer(
-QURL + "?data=node['traffic_sign:backward'='ES:S242b'](bbox);out+skel;",
-name="#ex#&nbspES:S242bbackward ",
-tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S242b.png"),
-false
-
-),
-make_layer(
-QURL + "?data=node['traffic_sign:forward'='ES:S242c'](bbox);out+skel;",
-name="#ex#&nbspES:S242cforward ",
-tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S242c.png"),
-false
-),
-make_layer(
-QURL + "?data=node['traffic_sign:backward'='ES:S242c'](bbox);out+skel;",
-name="#ex#&nbspES:S242cbackward ",
-tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S242c.png"),
-false
-
-),
-make_layer(
-QURL + "?data=node['traffic_sign:forward'='ES:S25'](bbox);out+skel;",
-name="#ex#&nbspES:S25forward ",
-tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S25.png"),
-false
-),
-make_layer(
-QURL + "?data=node['traffic_sign:backward'='ES:S25'](bbox);out+skel;",
-name="#ex#&nbspES:S25backward ",
-tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S25.png"),
-false
-
-),
-make_layer(
-QURL + "?data=node['traffic_sign:forward'='ES:S250'](bbox);out+skel;",
-name="#ex#&nbspES:S250forward ",
-tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S250.png"),
-false
-),
-make_layer(
-QURL + "?data=node['traffic_sign:backward'='ES:S250'](bbox);out+skel;",
-name="#ex#&nbspES:S250backward ",
-tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S250.png"),
-false
-
-),
-make_layer(
-QURL + "?data=node['traffic_sign:forward'='ES:S260'](bbox);out+skel;",
-name="#ex#&nbspES:S260forward ",
-tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S260.png"),
-false
-),
-make_layer(
-QURL + "?data=node['traffic_sign:backward'='ES:S260'](bbox);out+skel;",
-name="#ex#&nbspES:S260backward ",
-tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S260.png"),
-false
-
-),
-make_layer(
-QURL + "?data=node['traffic_sign:forward'='ES:S261'](bbox);out+skel;",
-name="#ex#&nbspES:S261forward ",
-tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S261.png"),
-false
-),
-make_layer(
-QURL + "?data=node['traffic_sign:backward'='ES:S261'](bbox);out+skel;",
-name="#ex#&nbspES:S261backward ",
-tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S261.png"),
-false
-
-),
-make_layer(
-QURL + "?data=node['traffic_sign:forward'='ES:S263'](bbox);out+skel;",
-name="#ex#&nbspES:S263forward ",
-tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S263.png"),
-false
-),
-make_layer(
-QURL + "?data=node['traffic_sign:backward'='ES:S263'](bbox);out+skel;",
-name="#ex#&nbspES:S263backward ",
-tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S263.png"),
-false
-
-),
-make_layer(
-QURL + "?data=node['traffic_sign:forward'='ES:S263a'](bbox);out+skel;",
-name="#ex#&nbspES:S263aforward ",
-tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S263a.png"),
-false
-),
-make_layer(
-QURL + "?data=node['traffic_sign:backward'='ES:S263a'](bbox);out+skel;",
-name="#ex#&nbspES:S263abackward ",
-tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S263a.png"),
-false
-
-),
-make_layer(
-QURL + "?data=node['traffic_sign:forward'='ES:S264'](bbox);out+skel;",
-name="#ex#&nbspES:S264forward ",
-tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S264.png"),
-false
-),
-make_layer(
-QURL + "?data=node['traffic_sign:backward'='ES:S264'](bbox);out+skel;",
-name="#ex#&nbspES:S264backward ",
-tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S264.png"),
-false
-
-),
-make_layer(
-QURL + "?data=node['traffic_sign:forward'='ES:S266'](bbox);out+skel;",
-name="#ex#&nbspES:S266forward ",
-tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S266.png"),
-false
-),
-make_layer(
-QURL + "?data=node['traffic_sign:backward'='ES:S266'](bbox);out+skel;",
-name="#ex#&nbspES:S266backward ",
-tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S266.png"),
-false
-
-),
-make_layer(
-QURL + "?data=node['traffic_sign:forward'='ES:S266a'](bbox);out+skel;",
-name="#ex#&nbspES:S266aforward ",
-tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S266a.png"),
-false
-),
-make_layer(
-QURL + "?data=node['traffic_sign:backward'='ES:S266a'](bbox);out+skel;",
-name="#ex#&nbspES:S266abackward ",
-tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S266a.png"),
-false
-
-),
-make_layer(
 QURL + "?data=node['traffic_sign:forward'='ES:S26a'](bbox);out+skel;",
 name="#ex#&nbspES:S26aforward ",
 tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S26a.png"),
@@ -3266,318 +2903,6 @@ false
 
 ),
 make_layer(
-QURL + "?data=node['traffic_sign:forward'='ES:S300'](bbox);out+skel;",
-name="#ex#&nbspES:S300forward ",
-tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S300.png"),
-false
-),
-make_layer(
-QURL + "?data=node['traffic_sign:backward'='ES:S300'](bbox);out+skel;",
-name="#ex#&nbspES:S300backward ",
-tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S300.png"),
-false
-
-),
-make_layer(
-QURL + "?data=node['traffic_sign:forward'='ES:S301'](bbox);out+skel;",
-name="#ex#&nbspES:S301forward ",
-tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S301.png"),
-false
-),
-make_layer(
-QURL + "?data=node['traffic_sign:backward'='ES:S301'](bbox);out+skel;",
-name="#ex#&nbspES:S301backward ",
-tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S301.png"),
-false
-
-),
-make_layer(
-QURL + "?data=node['traffic_sign:forward'='ES:S31'](bbox);out+skel;",
-name="#ex#&nbspES:S31forward ",
-tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S31.png"),
-false
-),
-make_layer(
-QURL + "?data=node['traffic_sign:backward'='ES:S31'](bbox);out+skel;",
-name="#ex#&nbspES:S31backward ",
-tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S31.png"),
-false
-
-),
-make_layer(
-QURL + "?data=node['traffic_sign:forward'='ES:S310'](bbox);out+skel;",
-name="#ex#&nbspES:S310forward ",
-tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S310.png"),
-false
-),
-make_layer(
-QURL + "?data=node['traffic_sign:backward'='ES:S310'](bbox);out+skel;",
-name="#ex#&nbspES:S310backward ",
-tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S310.png"),
-false
-
-),
-make_layer(
-QURL + "?data=node['traffic_sign:forward'='ES:S32'](bbox);out+skel;",
-name="#ex#&nbspES:S32forward ",
-tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S32.png"),
-false
-),
-make_layer(
-QURL + "?data=node['traffic_sign:backward'='ES:S32'](bbox);out+skel;",
-name="#ex#&nbspES:S32backward ",
-tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S32.png"),
-false
-
-),
-make_layer(
-QURL + "?data=node['traffic_sign:forward'='ES:S320'](bbox);out+skel;",
-name="#ex#&nbspES:S320forward ",
-tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S320.png"),
-false
-),
-make_layer(
-QURL + "?data=node['traffic_sign:backward'='ES:S320'](bbox);out+skel;",
-name="#ex#&nbspES:S320backward ",
-tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S320.png"),
-false
-
-),
-make_layer(
-QURL + "?data=node['traffic_sign:forward'='ES:S321'](bbox);out+skel;",
-name="#ex#&nbspES:S321forward ",
-tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S321.png"),
-false
-),
-make_layer(
-QURL + "?data=node['traffic_sign:backward'='ES:S321'](bbox);out+skel;",
-name="#ex#&nbspES:S321backward ",
-tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S321.png"),
-false
-
-),
-make_layer(
-QURL + "?data=node['traffic_sign:forward'='ES:S322'](bbox);out+skel;",
-name="#ex#&nbspES:S322forward ",
-tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S322.png"),
-false
-),
-make_layer(
-QURL + "?data=node['traffic_sign:backward'='ES:S322'](bbox);out+skel;",
-name="#ex#&nbspES:S322backward ",
-tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S322.png"),
-false
-
-),
-make_layer(
-QURL + "?data=node['traffic_sign:forward'='ES:S33'](bbox);out+skel;",
-name="#ex#&nbspES:S33forward ",
-tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S33.png"),
-false
-),
-make_layer(
-QURL + "?data=node['traffic_sign:backward'='ES:S33'](bbox);out+skel;",
-name="#ex#&nbspES:S33backward ",
-tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S33.png"),
-false
-
-),
-make_layer(
-QURL + "?data=node['traffic_sign:forward'='ES:S34'](bbox);out+skel;",
-name="#ex#&nbspES:S34forward ",
-tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S34.png"),
-false
-),
-make_layer(
-QURL + "?data=node['traffic_sign:backward'='ES:S34'](bbox);out+skel;",
-name="#ex#&nbspES:S34backward ",
-tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S34.png"),
-false
-
-),
-make_layer(
-QURL + "?data=node['traffic_sign:forward'='ES:S341'](bbox);out+skel;",
-name="#ex#&nbspES:S341forward ",
-tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S341.png"),
-false
-),
-make_layer(
-QURL + "?data=node['traffic_sign:backward'='ES:S341'](bbox);out+skel;",
-name="#ex#&nbspES:S341backward ",
-tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S341.png"),
-false
-
-),
-make_layer(
-QURL + "?data=node['traffic_sign:forward'='ES:S342'](bbox);out+skel;",
-name="#ex#&nbspES:S342forward ",
-tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S342.png"),
-false
-),
-make_layer(
-QURL + "?data=node['traffic_sign:backward'='ES:S342'](bbox);out+skel;",
-name="#ex#&nbspES:S342backward ",
-tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S342.png"),
-false
-
-),
-make_layer(
-QURL + "?data=node['traffic_sign:forward'='ES:S344'](bbox);out+skel;",
-name="#ex#&nbspES:S344forward ",
-tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S344.png"),
-false
-),
-make_layer(
-QURL + "?data=node['traffic_sign:backward'='ES:S344'](bbox);out+skel;",
-name="#ex#&nbspES:S344backward ",
-tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S344.png"),
-false
-
-),
-make_layer(
-QURL + "?data=node['traffic_sign:forward'='ES:S347'](bbox);out+skel;",
-name="#ex#&nbspES:S347forward ",
-tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S347.png"),
-false
-),
-make_layer(
-QURL + "?data=node['traffic_sign:backward'='ES:S347'](bbox);out+skel;",
-name="#ex#&nbspES:S347backward ",
-tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S347.png"),
-false
-
-),
-make_layer(
-QURL + "?data=node['traffic_sign:forward'='ES:S34a'](bbox);out+skel;",
-name="#ex#&nbspES:S34aforward ",
-tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S34a.png"),
-false
-),
-make_layer(
-QURL + "?data=node['traffic_sign:backward'='ES:S34a'](bbox);out+skel;",
-name="#ex#&nbspES:S34abackward ",
-tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S34a.png"),
-false
-
-),
-make_layer(
-QURL + "?data=node['traffic_sign:forward'='ES:S350'](bbox);out+skel;",
-name="#ex#&nbspES:S350forward ",
-tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S350.png"),
-false
-),
-make_layer(
-QURL + "?data=node['traffic_sign:backward'='ES:S350'](bbox);out+skel;",
-name="#ex#&nbspES:S350backward ",
-tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S350.png"),
-false
-
-),
-make_layer(
-QURL + "?data=node['traffic_sign:forward'='ES:S351'](bbox);out+skel;",
-name="#ex#&nbspES:S351forward ",
-tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S351.png"),
-false
-),
-make_layer(
-QURL + "?data=node['traffic_sign:backward'='ES:S351'](bbox);out+skel;",
-name="#ex#&nbspES:S351backward ",
-tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S351.png"),
-false
-
-),
-make_layer(
-QURL + "?data=node['traffic_sign:forward'='ES:S354'](bbox);out+skel;",
-name="#ex#&nbspES:S354forward ",
-tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S354.png"),
-false
-),
-make_layer(
-QURL + "?data=node['traffic_sign:backward'='ES:S354'](bbox);out+skel;",
-name="#ex#&nbspES:S354backward ",
-tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S354.png"),
-false
-
-),
-make_layer(
-QURL + "?data=node['traffic_sign:forward'='ES:S355'](bbox);out+skel;",
-name="#ex#&nbspES:S355forward ",
-tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S355.png"),
-false
-),
-make_layer(
-QURL + "?data=node['traffic_sign:backward'='ES:S355'](bbox);out+skel;",
-name="#ex#&nbspES:S355backward ",
-tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S355.png"),
-false
-
-),
-make_layer(
-QURL + "?data=node['traffic_sign:forward'='ES:S360'](bbox);out+skel;",
-name="#ex#&nbspES:S360forward ",
-tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S360.png"),
-false
-),
-make_layer(
-QURL + "?data=node['traffic_sign:backward'='ES:S360'](bbox);out+skel;",
-name="#ex#&nbspES:S360backward ",
-tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S360.png"),
-false
-
-),
-make_layer(
-QURL + "?data=node['traffic_sign:forward'='ES:S362'](bbox);out+skel;",
-name="#ex#&nbspES:S362forward ",
-tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S362.png"),
-false
-),
-make_layer(
-QURL + "?data=node['traffic_sign:backward'='ES:S362'](bbox);out+skel;",
-name="#ex#&nbspES:S362backward ",
-tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S362.png"),
-false
-
-),
-make_layer(
-QURL + "?data=node['traffic_sign:forward'='ES:S366'](bbox);out+skel;",
-name="#ex#&nbspES:S366forward ",
-tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S366.png"),
-false
-),
-make_layer(
-QURL + "?data=node['traffic_sign:backward'='ES:S366'](bbox);out+skel;",
-name="#ex#&nbspES:S366backward ",
-tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S366.png"),
-false
-
-),
-make_layer(
-QURL + "?data=node['traffic_sign:forward'='ES:S368'](bbox);out+skel;",
-name="#ex#&nbspES:S368forward ",
-tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S368.png"),
-false
-),
-make_layer(
-QURL + "?data=node['traffic_sign:backward'='ES:S368'](bbox);out+skel;",
-name="#ex#&nbspES:S368backward ",
-tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S368.png"),
-false
-
-),
-make_layer(
-QURL + "?data=node['traffic_sign:forward'='ES:S373'](bbox);out+skel;",
-name="#ex#&nbspES:S373forward ",
-tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S373.png"),
-false
-),
-make_layer(
-QURL + "?data=node['traffic_sign:backward'='ES:S373'](bbox);out+skel;",
-name="#ex#&nbspES:S373backward ",
-tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S373.png"),
-false
-
-),
-make_layer(
 QURL + "?data=node['traffic_sign:forward'='ES:S4'](bbox);out+skel;",
 name="#ex#&nbspES:S4forward ",
 tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S4.png"),
@@ -3708,500 +3033,6 @@ false
 
 ),
 make_layer(
-QURL + "?data=node['traffic_sign:forward'='ES:S50a'](bbox);out+skel;",
-name="#ex#&nbspES:S50aforward ",
-tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S50a.png"),
-false
-),
-make_layer(
-QURL + "?data=node['traffic_sign:backward'='ES:S50a'](bbox);out+skel;",
-name="#ex#&nbspES:S50abackward ",
-tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S50a.png"),
-false
-
-),
-make_layer(
-QURL + "?data=node['traffic_sign:forward'='ES:S50a_50'](bbox);out+skel;",
-name="#ex#&nbspES:S50a_50forward ",
-tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S50a_50.png"),
-false
-),
-make_layer(
-QURL + "?data=node['traffic_sign:backward'='ES:S50a_50'](bbox);out+skel;",
-name="#ex#&nbspES:S50a_50backward ",
-tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S50a_50.png"),
-false
-
-),
-make_layer(
-QURL + "?data=node['traffic_sign:forward'='ES:S50a_60'](bbox);out+skel;",
-name="#ex#&nbspES:S50a_60forward ",
-tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S50a_60.png"),
-false
-),
-make_layer(
-QURL + "?data=node['traffic_sign:backward'='ES:S50a_60'](bbox);out+skel;",
-name="#ex#&nbspES:S50a_60backward ",
-tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S50a_60.png"),
-false
-
-),
-make_layer(
-QURL + "?data=node['traffic_sign:forward'='ES:S50a_70'](bbox);out+skel;",
-name="#ex#&nbspES:S50a_70forward ",
-tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S50a_70.png"),
-false
-),
-make_layer(
-QURL + "?data=node['traffic_sign:backward'='ES:S50a_70'](bbox);out+skel;",
-name="#ex#&nbspES:S50a_70backward ",
-tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S50a_70.png"),
-false
-
-),
-make_layer(
-QURL + "?data=node['traffic_sign:forward'='ES:S50b'](bbox);out+skel;",
-name="#ex#&nbspES:S50bforward ",
-tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S50b.png"),
-false
-),
-make_layer(
-QURL + "?data=node['traffic_sign:backward'='ES:S50b'](bbox);out+skel;",
-name="#ex#&nbspES:S50bbackward ",
-tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S50b.png"),
-false
-
-),
-make_layer(
-QURL + "?data=node['traffic_sign:forward'='ES:S50b_60'](bbox);out+skel;",
-name="#ex#&nbspES:S50b_60forward ",
-tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S50b_60.png"),
-false
-),
-make_layer(
-QURL + "?data=node['traffic_sign:backward'='ES:S50b_60'](bbox);out+skel;",
-name="#ex#&nbspES:S50b_60backward ",
-tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S50b_60.png"),
-false
-
-),
-make_layer(
-QURL + "?data=node['traffic_sign:forward'='ES:S50b_70'](bbox);out+skel;",
-name="#ex#&nbspES:S50b_70forward ",
-tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S50b_70.png"),
-false
-),
-make_layer(
-QURL + "?data=node['traffic_sign:backward'='ES:S50b_70'](bbox);out+skel;",
-name="#ex#&nbspES:S50b_70backward ",
-tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S50b_70.png"),
-false
-
-),
-make_layer(
-QURL + "?data=node['traffic_sign:forward'='ES:S50c'](bbox);out+skel;",
-name="#ex#&nbspES:S50cforward ",
-tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S50c.png"),
-false
-),
-make_layer(
-QURL + "?data=node['traffic_sign:backward'='ES:S50c'](bbox);out+skel;",
-name="#ex#&nbspES:S50cbackward ",
-tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S50c.png"),
-false
-
-),
-make_layer(
-QURL + "?data=node['traffic_sign:forward'='ES:S50d'](bbox);out+skel;",
-name="#ex#&nbspES:S50dforward ",
-tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S50d.png"),
-false
-),
-make_layer(
-QURL + "?data=node['traffic_sign:backward'='ES:S50d'](bbox);out+skel;",
-name="#ex#&nbspES:S50dbackward ",
-tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S50d.png"),
-false
-
-),
-make_layer(
-QURL + "?data=node['traffic_sign:forward'='ES:S50d_50'](bbox);out+skel;",
-name="#ex#&nbspES:S50d_50forward ",
-tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S50d_50.png"),
-false
-),
-make_layer(
-QURL + "?data=node['traffic_sign:backward'='ES:S50d_50'](bbox);out+skel;",
-name="#ex#&nbspES:S50d_50backward ",
-tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S50d_50.png"),
-false
-
-),
-make_layer(
-QURL + "?data=node['traffic_sign:forward'='ES:S50d_60'](bbox);out+skel;",
-name="#ex#&nbspES:S50d_60forward ",
-tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S50d_60.png"),
-false
-),
-make_layer(
-QURL + "?data=node['traffic_sign:backward'='ES:S50d_60'](bbox);out+skel;",
-name="#ex#&nbspES:S50d_60backward ",
-tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S50d_60.png"),
-false
-
-),
-make_layer(
-QURL + "?data=node['traffic_sign:forward'='ES:S50d_70'](bbox);out+skel;",
-name="#ex#&nbspES:S50d_70forward ",
-tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S50d_70.png"),
-false
-),
-make_layer(
-QURL + "?data=node['traffic_sign:backward'='ES:S50d_70'](bbox);out+skel;",
-name="#ex#&nbspES:S50d_70backward ",
-tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S50d_70.png"),
-false
-
-),
-make_layer(
-QURL + "?data=node['traffic_sign:forward'='ES:S50e'](bbox);out+skel;",
-name="#ex#&nbspES:S50eforward ",
-tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S50e.png"),
-false
-),
-make_layer(
-QURL + "?data=node['traffic_sign:backward'='ES:S50e'](bbox);out+skel;",
-name="#ex#&nbspES:S50ebackward ",
-tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S50e.png"),
-false
-
-),
-make_layer(
-QURL + "?data=node['traffic_sign:forward'='ES:S50e_50'](bbox);out+skel;",
-name="#ex#&nbspES:S50e_50forward ",
-tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S50e_50.png"),
-false
-),
-make_layer(
-QURL + "?data=node['traffic_sign:backward'='ES:S50e_50'](bbox);out+skel;",
-name="#ex#&nbspES:S50e_50backward ",
-tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S50e_50.png"),
-false
-
-),
-make_layer(
-QURL + "?data=node['traffic_sign:forward'='ES:S50e_60'](bbox);out+skel;",
-name="#ex#&nbspES:S50e_60forward ",
-tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S50e_60.png"),
-false
-),
-make_layer(
-QURL + "?data=node['traffic_sign:backward'='ES:S50e_60'](bbox);out+skel;",
-name="#ex#&nbspES:S50e_60backward ",
-tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S50e_60.png"),
-false
-
-),
-make_layer(
-QURL + "?data=node['traffic_sign:forward'='ES:S50e_70'](bbox);out+skel;",
-name="#ex#&nbspES:S50e_70forward ",
-tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S50e_70.png"),
-false
-),
-make_layer(
-QURL + "?data=node['traffic_sign:backward'='ES:S50e_70'](bbox);out+skel;",
-name="#ex#&nbspES:S50e_70backward ",
-tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S50e_70.png"),
-false
-
-),
-make_layer(
-QURL + "?data=node['traffic_sign:forward'='ES:S51'](bbox);out+skel;",
-name="#ex#&nbspES:S51forward ",
-tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S51.png"),
-false
-),
-make_layer(
-QURL + "?data=node['traffic_sign:backward'='ES:S51'](bbox);out+skel;",
-name="#ex#&nbspES:S51backward ",
-tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S51.png"),
-false
-
-),
-make_layer(
-QURL + "?data=node['traffic_sign:forward'='ES:S510'](bbox);out+skel;",
-name="#ex#&nbspES:S510forward ",
-tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S510.png"),
-false
-),
-make_layer(
-QURL + "?data=node['traffic_sign:backward'='ES:S510'](bbox);out+skel;",
-name="#ex#&nbspES:S510backward ",
-tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S510.png"),
-false
-
-),
-make_layer(
-QURL + "?data=node['traffic_sign:forward'='ES:S52'](bbox);out+skel;",
-name="#ex#&nbspES:S52forward ",
-tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S52.png"),
-false
-),
-make_layer(
-QURL + "?data=node['traffic_sign:backward'='ES:S52'](bbox);out+skel;",
-name="#ex#&nbspES:S52backward ",
-tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S52.png"),
-false
-
-),
-make_layer(
-QURL + "?data=node['traffic_sign:forward'='ES:S520'](bbox);out+skel;",
-name="#ex#&nbspES:S520forward ",
-tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S520.png"),
-false
-),
-make_layer(
-QURL + "?data=node['traffic_sign:backward'='ES:S520'](bbox);out+skel;",
-name="#ex#&nbspES:S520backward ",
-tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S520.png"),
-false
-
-),
-make_layer(
-QURL + "?data=node['traffic_sign:forward'='ES:S52a'](bbox);out+skel;",
-name="#ex#&nbspES:S52aforward ",
-tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S52a.png"),
-false
-),
-make_layer(
-QURL + "?data=node['traffic_sign:backward'='ES:S52a'](bbox);out+skel;",
-name="#ex#&nbspES:S52abackward ",
-tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S52a.png"),
-false
-
-),
-make_layer(
-QURL + "?data=node['traffic_sign:forward'='ES:S52b'](bbox);out+skel;",
-name="#ex#&nbspES:S52bforward ",
-tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S52b.png"),
-false
-),
-make_layer(
-QURL + "?data=node['traffic_sign:backward'='ES:S52b'](bbox);out+skel;",
-name="#ex#&nbspES:S52bbackward ",
-tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S52b.png"),
-false
-
-),
-make_layer(
-QURL + "?data=node['traffic_sign:forward'='ES:S53'](bbox);out+skel;",
-name="#ex#&nbspES:S53forward ",
-tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S53.png"),
-false
-),
-make_layer(
-QURL + "?data=node['traffic_sign:backward'='ES:S53'](bbox);out+skel;",
-name="#ex#&nbspES:S53backward ",
-tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S53.png"),
-false
-
-),
-make_layer(
-QURL + "?data=node['traffic_sign:forward'='ES:S53a'](bbox);out+skel;",
-name="#ex#&nbspES:S53aforward ",
-tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S53a.png"),
-false
-),
-make_layer(
-QURL + "?data=node['traffic_sign:backward'='ES:S53a'](bbox);out+skel;",
-name="#ex#&nbspES:S53abackward ",
-tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S53a.png"),
-false
-
-),
-make_layer(
-QURL + "?data=node['traffic_sign:forward'='ES:S53b'](bbox);out+skel;",
-name="#ex#&nbspES:S53bforward ",
-tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S53b.png"),
-false
-),
-make_layer(
-QURL + "?data=node['traffic_sign:backward'='ES:S53b'](bbox);out+skel;",
-name="#ex#&nbspES:S53bbackward ",
-tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S53b.png"),
-false
-
-),
-make_layer(
-QURL + "?data=node['traffic_sign:forward'='ES:S53c'](bbox);out+skel;",
-name="#ex#&nbspES:S53cforward ",
-tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S53c.png"),
-false
-),
-make_layer(
-QURL + "?data=node['traffic_sign:backward'='ES:S53c'](bbox);out+skel;",
-name="#ex#&nbspES:S53cbackward ",
-tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S53c.png"),
-false
-
-),
-make_layer(
-QURL + "?data=node['traffic_sign:forward'='ES:S540'](bbox);out+skel;",
-name="#ex#&nbspES:S540forward ",
-tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S540.png"),
-false
-),
-make_layer(
-QURL + "?data=node['traffic_sign:backward'='ES:S540'](bbox);out+skel;",
-name="#ex#&nbspES:S540backward ",
-tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S540.png"),
-false
-
-),
-make_layer(
-QURL + "?data=node['traffic_sign:forward'='ES:S550'](bbox);out+skel;",
-name="#ex#&nbspES:S550forward ",
-tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S550.png"),
-false
-),
-make_layer(
-QURL + "?data=node['traffic_sign:backward'='ES:S550'](bbox);out+skel;",
-name="#ex#&nbspES:S550backward ",
-tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S550.png"),
-false
-
-),
-make_layer(
-QURL + "?data=node['traffic_sign:forward'='ES:S560'](bbox);out+skel;",
-name="#ex#&nbspES:S560forward ",
-tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S560.png"),
-false
-),
-make_layer(
-QURL + "?data=node['traffic_sign:backward'='ES:S560'](bbox);out+skel;",
-name="#ex#&nbspES:S560backward ",
-tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S560.png"),
-false
-
-),
-make_layer(
-QURL + "?data=node['traffic_sign:forward'='ES:S570'](bbox);out+skel;",
-name="#ex#&nbspES:S570forward ",
-tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S570.png"),
-false
-),
-make_layer(
-QURL + "?data=node['traffic_sign:backward'='ES:S570'](bbox);out+skel;",
-name="#ex#&nbspES:S570backward ",
-tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S570.png"),
-false
-
-),
-make_layer(
-QURL + "?data=node['traffic_sign:forward'='ES:S570a'](bbox);out+skel;",
-name="#ex#&nbspES:S570aforward ",
-tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S570a.png"),
-false
-),
-make_layer(
-QURL + "?data=node['traffic_sign:backward'='ES:S570a'](bbox);out+skel;",
-name="#ex#&nbspES:S570abackward ",
-tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S570a.png"),
-false
-
-),
-make_layer(
-QURL + "?data=node['traffic_sign:forward'='ES:S571'](bbox);out+skel;",
-name="#ex#&nbspES:S571forward ",
-tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S571.png"),
-false
-),
-make_layer(
-QURL + "?data=node['traffic_sign:backward'='ES:S571'](bbox);out+skel;",
-name="#ex#&nbspES:S571backward ",
-tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S571.png"),
-false
-
-),
-make_layer(
-QURL + "?data=node['traffic_sign:forward'='ES:S572'](bbox);out+skel;",
-name="#ex#&nbspES:S572forward ",
-tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S572.png"),
-false
-),
-make_layer(
-QURL + "?data=node['traffic_sign:backward'='ES:S572'](bbox);out+skel;",
-name="#ex#&nbspES:S572backward ",
-tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S572.png"),
-false
-
-),
-make_layer(
-QURL + "?data=node['traffic_sign:forward'='ES:S573'](bbox);out+skel;",
-name="#ex#&nbspES:S573forward ",
-tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S573.png"),
-false
-),
-make_layer(
-QURL + "?data=node['traffic_sign:backward'='ES:S573'](bbox);out+skel;",
-name="#ex#&nbspES:S573backward ",
-tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S573.png"),
-false
-
-),
-make_layer(
-QURL + "?data=node['traffic_sign:forward'='ES:S574'](bbox);out+skel;",
-name="#ex#&nbspES:S574forward ",
-tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S574.png"),
-false
-),
-make_layer(
-QURL + "?data=node['traffic_sign:backward'='ES:S574'](bbox);out+skel;",
-name="#ex#&nbspES:S574backward ",
-tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S574.png"),
-false
-
-),
-make_layer(
-QURL + "?data=node['traffic_sign:forward'='ES:S574a'](bbox);out+skel;",
-name="#ex#&nbspES:S574aforward ",
-tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S574a.png"),
-false
-),
-make_layer(
-QURL + "?data=node['traffic_sign:backward'='ES:S574a'](bbox);out+skel;",
-name="#ex#&nbspES:S574abackward ",
-tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S574a.png"),
-false
-
-),
-make_layer(
-QURL + "?data=node['traffic_sign:forward'='ES:S574b'](bbox);out+skel;",
-name="#ex#&nbspES:S574bforward ",
-tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S574b.png"),
-false
-),
-make_layer(
-QURL + "?data=node['traffic_sign:backward'='ES:S574b'](bbox);out+skel;",
-name="#ex#&nbspES:S574bbackward ",
-tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S574b.png"),
-false
-
-),
-make_layer(
-QURL + "?data=node['traffic_sign:forward'='ES:S575'](bbox);out+skel;",
-name="#ex#&nbspES:S575forward ",
-tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S575.png"),
-false
-),
-make_layer(
-QURL + "?data=node['traffic_sign:backward'='ES:S575'](bbox);out+skel;",
-name="#ex#&nbspES:S575backward ",
-tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S575.png"),
-false
-
-),
-make_layer(
 QURL + "?data=node['traffic_sign:forward'='ES:S6'](bbox);out+skel;",
 name="#ex#&nbspES:S6forward ",
 tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S6.png"),
@@ -4211,279 +3042,6 @@ make_layer(
 QURL + "?data=node['traffic_sign:backward'='ES:S6'](bbox);out+skel;",
 name="#ex#&nbspES:S6backward ",
 tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S6.png"),
-false
-
-),
-make_layer(
-QURL + "?data=node['traffic_sign:forward'='ES:S600'](bbox);out+skel;",
-name="#ex#&nbspES:S600forward ",
-tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S600.png"),
-false
-),
-make_layer(
-QURL + "?data=node['traffic_sign:backward'='ES:S600'](bbox);out+skel;",
-name="#ex#&nbspES:S600backward ",
-tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S600.png"),
-false
-
-),
-make_layer(
-QURL + "?data=node['traffic_sign:forward'='ES:S602'](bbox);out+skel;",
-name="#ex#&nbspES:S602forward ",
-tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S602.png"),
-false
-),
-make_layer(
-QURL + "?data=node['traffic_sign:backward'='ES:S602'](bbox);out+skel;",
-name="#ex#&nbspES:S602backward ",
-tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S602.png"),
-false
-
-),
-make_layer(
-QURL + "?data=node['traffic_sign:forward'='ES:S60a'](bbox);out+skel;",
-name="#ex#&nbspES:S60aforward ",
-tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S60a.png"),
-false
-),
-make_layer(
-QURL + "?data=node['traffic_sign:backward'='ES:S60a'](bbox);out+skel;",
-name="#ex#&nbspES:S60abackward ",
-tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S60a.png"),
-false
-
-),
-make_layer(
-QURL + "?data=node['traffic_sign:forward'='ES:S60b'](bbox);out+skel;",
-name="#ex#&nbspES:S60bforward ",
-tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S60b.png"),
-false
-),
-make_layer(
-QURL + "?data=node['traffic_sign:backward'='ES:S60b'](bbox);out+skel;",
-name="#ex#&nbspES:S60bbackward ",
-tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S60b.png"),
-false
-
-),
-make_layer(
-QURL + "?data=node['traffic_sign:forward'='ES:S610'](bbox);out+skel;",
-name="#ex#&nbspES:S610forward ",
-tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S610.png"),
-false
-),
-make_layer(
-QURL + "?data=node['traffic_sign:backward'='ES:S610'](bbox);out+skel;",
-name="#ex#&nbspES:S610backward ",
-tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S610.png"),
-false
-
-),
-make_layer(
-QURL + "?data=node['traffic_sign:forward'='ES:S61a'](bbox);out+skel;",
-name="#ex#&nbspES:S61aforward ",
-tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S61a.png"),
-false
-),
-make_layer(
-QURL + "?data=node['traffic_sign:backward'='ES:S61a'](bbox);out+skel;",
-name="#ex#&nbspES:S61abackward ",
-tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S61a.png"),
-false
-
-),
-make_layer(
-QURL + "?data=node['traffic_sign:forward'='ES:S61b'](bbox);out+skel;",
-name="#ex#&nbspES:S61bforward ",
-tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S61b.png"),
-false
-),
-make_layer(
-QURL + "?data=node['traffic_sign:backward'='ES:S61b'](bbox);out+skel;",
-name="#ex#&nbspES:S61bbackward ",
-tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S61b.png"),
-false
-
-),
-make_layer(
-QURL + "?data=node['traffic_sign:forward'='ES:S62a'](bbox);out+skel;",
-name="#ex#&nbspES:S62aforward ",
-tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S62a.png"),
-false
-),
-make_layer(
-QURL + "?data=node['traffic_sign:backward'='ES:S62a'](bbox);out+skel;",
-name="#ex#&nbspES:S62abackward ",
-tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S62a.png"),
-false
-
-),
-make_layer(
-QURL + "?data=node['traffic_sign:forward'='ES:S62b'](bbox);out+skel;",
-name="#ex#&nbspES:S62bforward ",
-tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S62b.png"),
-false
-),
-make_layer(
-QURL + "?data=node['traffic_sign:backward'='ES:S62b'](bbox);out+skel;",
-name="#ex#&nbspES:S62bbackward ",
-tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S62b.png"),
-false
-
-),
-make_layer(
-QURL + "?data=node['traffic_sign:forward'='ES:S63'](bbox);out+skel;",
-name="#ex#&nbspES:S63forward ",
-tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S63.png"),
-false
-),
-make_layer(
-QURL + "?data=node['traffic_sign:backward'='ES:S63'](bbox);out+skel;",
-name="#ex#&nbspES:S63backward ",
-tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S63.png"),
-false
-
-),
-make_layer(
-QURL + "?data=node['traffic_sign:forward'='ES:S64a'](bbox);out+skel;",
-name="#ex#&nbspES:S64aforward ",
-tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S64a.png"),
-false
-),
-make_layer(
-QURL + "?data=node['traffic_sign:backward'='ES:S64a'](bbox);out+skel;",
-name="#ex#&nbspES:S64abackward ",
-tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S64a.png"),
-false
-
-),
-make_layer(
-QURL + "?data=node['traffic_sign:forward'='ES:S64b'](bbox);out+skel;",
-name="#ex#&nbspES:S64bforward ",
-tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S64b.png"),
-false
-),
-make_layer(
-QURL + "?data=node['traffic_sign:backward'='ES:S64b'](bbox);out+skel;",
-name="#ex#&nbspES:S64bbackward ",
-tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S64b.png"),
-false
-
-),
-make_layer(
-QURL + "?data=node['traffic_sign:forward'='ES:S7'](bbox);out+skel;",
-name="#ex#&nbspES:S7forward ",
-tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S7.png"),
-false
-),
-make_layer(
-QURL + "?data=node['traffic_sign:backward'='ES:S7'](bbox);out+skel;",
-name="#ex#&nbspES:S7backward ",
-tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S7.png"),
-false
-
-),
-make_layer(
-QURL + "?data=node['traffic_sign:forward'='ES:S700'](bbox);out+skel;",
-name="#ex#&nbspES:S700forward ",
-tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S700.png"),
-false
-),
-make_layer(
-QURL + "?data=node['traffic_sign:backward'='ES:S700'](bbox);out+skel;",
-name="#ex#&nbspES:S700backward ",
-tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S700.png"),
-false
-
-),
-make_layer(
-QURL + "?data=node['traffic_sign:forward'='ES:S710'](bbox);out+skel;",
-name="#ex#&nbspES:S710forward ",
-tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S710.png"),
-false
-),
-make_layer(
-QURL + "?data=node['traffic_sign:backward'='ES:S710'](bbox);out+skel;",
-name="#ex#&nbspES:S710backward ",
-tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S710.png"),
-false
-
-),
-make_layer(
-QURL + "?data=node['traffic_sign:forward'='ES:S720'](bbox);out+skel;",
-name="#ex#&nbspES:S720forward ",
-tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S720.png"),
-false
-),
-make_layer(
-QURL + "?data=node['traffic_sign:backward'='ES:S720'](bbox);out+skel;",
-name="#ex#&nbspES:S720backward ",
-tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S720.png"),
-false
-
-),
-make_layer(
-QURL + "?data=node['traffic_sign:forward'='ES:S730'](bbox);out+skel;",
-name="#ex#&nbspES:S730forward ",
-tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S730.png"),
-false
-),
-make_layer(
-QURL + "?data=node['traffic_sign:backward'='ES:S730'](bbox);out+skel;",
-name="#ex#&nbspES:S730backward ",
-tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S730.png"),
-false
-
-),
-make_layer(
-QURL + "?data=node['traffic_sign:forward'='ES:S740'](bbox);out+skel;",
-name="#ex#&nbspES:S740forward ",
-tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S740.png"),
-false
-),
-make_layer(
-QURL + "?data=node['traffic_sign:backward'='ES:S740'](bbox);out+skel;",
-name="#ex#&nbspES:S740backward ",
-tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S740.png"),
-false
-
-),
-make_layer(
-QURL + "?data=node['traffic_sign:forward'='ES:S750'](bbox);out+skel;",
-name="#ex#&nbspES:S750forward ",
-tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S750.png"),
-false
-),
-make_layer(
-QURL + "?data=node['traffic_sign:backward'='ES:S750'](bbox);out+skel;",
-name="#ex#&nbspES:S750backward ",
-tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S750.png"),
-false
-
-),
-make_layer(
-QURL + "?data=node['traffic_sign:forward'='ES:S760'](bbox);out+skel;",
-name="#ex#&nbspES:S760forward ",
-tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S760.png"),
-false
-),
-make_layer(
-QURL + "?data=node['traffic_sign:backward'='ES:S760'](bbox);out+skel;",
-name="#ex#&nbspES:S760backward ",
-tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S760.png"),
-false
-
-),
-make_layer(
-QURL + "?data=node['traffic_sign:forward'='ES:S770'](bbox);out+skel;",
-name="#ex#&nbspES:S770forward ",
-tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S770.png"),
-false
-),
-make_layer(
-QURL + "?data=node['traffic_sign:backward'='ES:S770'](bbox);out+skel;",
-name="#ex#&nbspES:S770backward ",
-tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S770.png"),
 false
 
 ),
@@ -5914,6 +4472,1468 @@ tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_sig
 false
 
 ),
+			
+			]);
+	}
+
+	if (type == "lanes"){
+		//	dit maakt de layers voor de cycleway tags
+		map.addLayers([
+		//highway=cycleway
+//			make_layer(
+//				QURL + "?data=(way[highway=cycleway](bbox);node(w);way[highway~'path$|^footway$'][bicycle=designated](bbox);node(w););out+skel;",
+//				name="#l#highway=cycleway",
+//				defaultSolidLine("red"),
+//				false,
+//			),
+
+make_layer(
+QURL + "?data=node['traffic_sign:forward'='ES:S200'](bbox);out+skel;",
+name="#ex#&nbspES:S200forward ",
+tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S200.png"),
+false
+),
+make_layer(
+QURL + "?data=node['traffic_sign:backward'='ES:S200'](bbox);out+skel;",
+name="#ex#&nbspES:S200backward ",
+tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S200.png"),
+false
+
+),
+make_layer(
+QURL + "?data=node['traffic_sign:forward'='ES:S21'](bbox);out+skel;",
+name="#ex#&nbspES:S21forward ",
+tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S21.png"),
+false
+),
+make_layer(
+QURL + "?data=node['traffic_sign:backward'='ES:S21'](bbox);out+skel;",
+name="#ex#&nbspES:S21backward ",
+tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S21.png"),
+false
+
+),
+make_layer(
+QURL + "?data=node['traffic_sign:forward'='ES:S22'](bbox);out+skel;",
+name="#ex#&nbspES:S22forward ",
+tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S22.png"),
+false
+),
+make_layer(
+QURL + "?data=node['traffic_sign:backward'='ES:S22'](bbox);out+skel;",
+name="#ex#&nbspES:S22backward ",
+tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S22.png"),
+false
+
+),
+make_layer(
+QURL + "?data=node['traffic_sign:forward'='ES:S220'](bbox);out+skel;",
+name="#ex#&nbspES:S220forward ",
+tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S220.png"),
+false
+),
+make_layer(
+QURL + "?data=node['traffic_sign:backward'='ES:S220'](bbox);out+skel;",
+name="#ex#&nbspES:S220backward ",
+tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S220.png"),
+false
+
+),
+make_layer(
+QURL + "?data=node['traffic_sign:forward'='ES:S222'](bbox);out+skel;",
+name="#ex#&nbspES:S222forward ",
+tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S222.png"),
+false
+),
+make_layer(
+QURL + "?data=node['traffic_sign:backward'='ES:S222'](bbox);out+skel;",
+name="#ex#&nbspES:S222backward ",
+tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S222.png"),
+false
+
+),
+make_layer(
+QURL + "?data=node['traffic_sign:forward'='ES:S222a'](bbox);out+skel;",
+name="#ex#&nbspES:S222aforward ",
+tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S222a.png"),
+false
+),
+make_layer(
+QURL + "?data=node['traffic_sign:backward'='ES:S222a'](bbox);out+skel;",
+name="#ex#&nbspES:S222abackward ",
+tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S222a.png"),
+false
+
+),
+make_layer(
+QURL + "?data=node['traffic_sign:forward'='ES:S224'](bbox);out+skel;",
+name="#ex#&nbspES:S224forward ",
+tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S224.png"),
+false
+),
+make_layer(
+QURL + "?data=node['traffic_sign:backward'='ES:S224'](bbox);out+skel;",
+name="#ex#&nbspES:S224backward ",
+tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S224.png"),
+false
+
+),
+make_layer(
+QURL + "?data=node['traffic_sign:forward'='ES:S225'](bbox);out+skel;",
+name="#ex#&nbspES:S225forward ",
+tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S225.png"),
+false
+),
+make_layer(
+QURL + "?data=node['traffic_sign:backward'='ES:S225'](bbox);out+skel;",
+name="#ex#&nbspES:S225backward ",
+tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S225.png"),
+false
+),
+make_layer(
+QURL + "?data=node['traffic_sign:forward'='ES:S230'](bbox);out+skel;",
+name="#ex#&nbspES:S230forward ",
+tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S230.png"),
+false
+),
+make_layer(
+QURL + "?data=node['traffic_sign:backward'='ES:S230'](bbox);out+skel;",
+name="#ex#&nbspES:S230backward ",
+tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S230.png"),
+false
+
+),
+make_layer(
+QURL + "?data=node['traffic_sign:forward'='ES:S230a'](bbox);out+skel;",
+name="#ex#&nbspES:S230aforward ",
+tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S230a.png"),
+false
+),
+make_layer(
+QURL + "?data=node['traffic_sign:backward'='ES:S230a'](bbox);out+skel;",
+name="#ex#&nbspES:S230abackward ",
+tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S230a.png"),
+false
+
+),
+make_layer(
+QURL + "?data=node['traffic_sign:forward'='ES:S232'](bbox);out+skel;",
+name="#ex#&nbspES:S232forward ",
+tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S232.png"),
+false
+),
+make_layer(
+QURL + "?data=node['traffic_sign:backward'='ES:S232'](bbox);out+skel;",
+name="#ex#&nbspES:S232backward ",
+tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S232.png"),
+false
+
+),
+make_layer(
+QURL + "?data=node['traffic_sign:forward'='ES:S232a'](bbox);out+skel;",
+name="#ex#&nbspES:S232aforward ",
+tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S232a.png"),
+false
+),
+make_layer(
+QURL + "?data=node['traffic_sign:backward'='ES:S232a'](bbox);out+skel;",
+name="#ex#&nbspES:S232abackward ",
+tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S232a.png"),
+false
+
+),
+make_layer(
+QURL + "?data=node['traffic_sign:forward'='ES:S235'](bbox);out+skel;",
+name="#ex#&nbspES:S235forward ",
+tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S235.png"),
+false
+),
+make_layer(
+QURL + "?data=node['traffic_sign:backward'='ES:S235'](bbox);out+skel;",
+name="#ex#&nbspES:S235backward ",
+tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S235.png"),
+false
+
+),
+make_layer(
+QURL + "?data=node['traffic_sign:forward'='ES:S235a'](bbox);out+skel;",
+name="#ex#&nbspES:S235aforward ",
+tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S235a.png"),
+false
+),
+make_layer(
+QURL + "?data=node['traffic_sign:backward'='ES:S235a'](bbox);out+skel;",
+name="#ex#&nbspES:S235abackward ",
+tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S235a.png"),
+false
+
+),
+make_layer(
+QURL + "?data=node['traffic_sign:forward'='ES:S24'](bbox);out+skel;",
+name="#ex#&nbspES:S24forward ",
+tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S24.png"),
+false
+),
+make_layer(
+QURL + "?data=node['traffic_sign:backward'='ES:S24'](bbox);out+skel;",
+name="#ex#&nbspES:S24backward ",
+tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S24.png"),
+false
+
+),
+make_layer(
+QURL + "?data=node['traffic_sign:forward'='ES:S242'](bbox);out+skel;",
+name="#ex#&nbspES:S242forward ",
+tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S242.png"),
+false
+),
+make_layer(
+QURL + "?data=node['traffic_sign:backward'='ES:S242'](bbox);out+skel;",
+name="#ex#&nbspES:S242backward ",
+tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S242.png"),
+false
+
+),
+make_layer(
+QURL + "?data=node['traffic_sign:forward'='ES:S242a'](bbox);out+skel;",
+name="#ex#&nbspES:S242aforward ",
+tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S242a.png"),
+false
+),
+make_layer(
+QURL + "?data=node['traffic_sign:backward'='ES:S242a'](bbox);out+skel;",
+name="#ex#&nbspES:S242abackward ",
+tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S242a.png"),
+false
+
+),
+make_layer(
+QURL + "?data=node['traffic_sign:forward'='ES:S242b'](bbox);out+skel;",
+name="#ex#&nbspES:S242bforward ",
+tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S242b.png"),
+false
+),
+make_layer(
+QURL + "?data=node['traffic_sign:backward'='ES:S242b'](bbox);out+skel;",
+name="#ex#&nbspES:S242bbackward ",
+tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S242b.png"),
+false
+
+),
+make_layer(
+QURL + "?data=node['traffic_sign:forward'='ES:S242c'](bbox);out+skel;",
+name="#ex#&nbspES:S242cforward ",
+tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S242c.png"),
+false
+),
+make_layer(
+QURL + "?data=node['traffic_sign:backward'='ES:S242c'](bbox);out+skel;",
+name="#ex#&nbspES:S242cbackward ",
+tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S242c.png"),
+false
+
+),
+make_layer(
+QURL + "?data=node['traffic_sign:forward'='ES:S25'](bbox);out+skel;",
+name="#ex#&nbspES:S25forward ",
+tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S25.png"),
+false
+),
+make_layer(
+QURL + "?data=node['traffic_sign:backward'='ES:S25'](bbox);out+skel;",
+name="#ex#&nbspES:S25backward ",
+tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S25.png"),
+false
+
+),
+make_layer(
+QURL + "?data=node['traffic_sign:forward'='ES:S250'](bbox);out+skel;",
+name="#ex#&nbspES:S250forward ",
+tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S250.png"),
+false
+),
+make_layer(
+QURL + "?data=node['traffic_sign:backward'='ES:S250'](bbox);out+skel;",
+name="#ex#&nbspES:S250backward ",
+tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S250.png"),
+false
+
+),
+make_layer(
+QURL + "?data=node['traffic_sign:forward'='ES:S260'](bbox);out+skel;",
+name="#ex#&nbspES:S260forward ",
+tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S260.png"),
+false
+),
+make_layer(
+QURL + "?data=node['traffic_sign:backward'='ES:S260'](bbox);out+skel;",
+name="#ex#&nbspES:S260backward ",
+tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S260.png"),
+false
+
+),
+make_layer(
+QURL + "?data=node['traffic_sign:forward'='ES:S261'](bbox);out+skel;",
+name="#ex#&nbspES:S261forward ",
+tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S261.png"),
+false
+),
+make_layer(
+QURL + "?data=node['traffic_sign:backward'='ES:S261'](bbox);out+skel;",
+name="#ex#&nbspES:S261backward ",
+tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S261.png"),
+false
+
+),
+make_layer(
+QURL + "?data=node['traffic_sign:forward'='ES:S263'](bbox);out+skel;",
+name="#ex#&nbspES:S263forward ",
+tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S263.png"),
+false
+),
+make_layer(
+QURL + "?data=node['traffic_sign:backward'='ES:S263'](bbox);out+skel;",
+name="#ex#&nbspES:S263backward ",
+tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S263.png"),
+false
+
+),
+make_layer(
+QURL + "?data=node['traffic_sign:forward'='ES:S263a'](bbox);out+skel;",
+name="#ex#&nbspES:S263aforward ",
+tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S263a.png"),
+false
+),
+make_layer(
+QURL + "?data=node['traffic_sign:backward'='ES:S263a'](bbox);out+skel;",
+name="#ex#&nbspES:S263abackward ",
+tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S263a.png"),
+false
+
+),
+make_layer(
+QURL + "?data=node['traffic_sign:forward'='ES:S264'](bbox);out+skel;",
+name="#ex#&nbspES:S264forward ",
+tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S264.png"),
+false
+),
+make_layer(
+QURL + "?data=node['traffic_sign:backward'='ES:S264'](bbox);out+skel;",
+name="#ex#&nbspES:S264backward ",
+tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S264.png"),
+false
+
+),
+make_layer(
+QURL + "?data=node['traffic_sign:forward'='ES:S266'](bbox);out+skel;",
+name="#ex#&nbspES:S266forward ",
+tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S266.png"),
+false
+),
+make_layer(
+QURL + "?data=node['traffic_sign:backward'='ES:S266'](bbox);out+skel;",
+name="#ex#&nbspES:S266backward ",
+tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S266.png"),
+false
+
+),
+make_layer(
+QURL + "?data=node['traffic_sign:forward'='ES:S266a'](bbox);out+skel;",
+name="#ex#&nbspES:S266aforward ",
+tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S266a.png"),
+false
+),
+make_layer(
+QURL + "?data=node['traffic_sign:backward'='ES:S266a'](bbox);out+skel;",
+name="#ex#&nbspES:S266abackward ",
+tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S266a.png"),
+false
+
+),
+
+make_layer(
+QURL + "?data=node['traffic_sign:forward'='ES:S300'](bbox);out+skel;",
+name="#ex#&nbspES:S300forward ",
+tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S300.png"),
+false
+),
+make_layer(
+QURL + "?data=node['traffic_sign:backward'='ES:S300'](bbox);out+skel;",
+name="#ex#&nbspES:S300backward ",
+tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S300.png"),
+false
+
+),
+make_layer(
+QURL + "?data=node['traffic_sign:forward'='ES:S301'](bbox);out+skel;",
+name="#ex#&nbspES:S301forward ",
+tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S301.png"),
+false
+),
+make_layer(
+QURL + "?data=node['traffic_sign:backward'='ES:S301'](bbox);out+skel;",
+name="#ex#&nbspES:S301backward ",
+tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S301.png"),
+false
+
+),
+make_layer(
+QURL + "?data=node['traffic_sign:forward'='ES:S31'](bbox);out+skel;",
+name="#ex#&nbspES:S31forward ",
+tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S31.png"),
+false
+),
+make_layer(
+QURL + "?data=node['traffic_sign:backward'='ES:S31'](bbox);out+skel;",
+name="#ex#&nbspES:S31backward ",
+tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S31.png"),
+false
+
+),
+make_layer(
+QURL + "?data=node['traffic_sign:forward'='ES:S310'](bbox);out+skel;",
+name="#ex#&nbspES:S310forward ",
+tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S310.png"),
+false
+),
+make_layer(
+QURL + "?data=node['traffic_sign:backward'='ES:S310'](bbox);out+skel;",
+name="#ex#&nbspES:S310backward ",
+tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S310.png"),
+false
+
+),
+make_layer(
+QURL + "?data=node['traffic_sign:forward'='ES:S32'](bbox);out+skel;",
+name="#ex#&nbspES:S32forward ",
+tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S32.png"),
+false
+),
+make_layer(
+QURL + "?data=node['traffic_sign:backward'='ES:S32'](bbox);out+skel;",
+name="#ex#&nbspES:S32backward ",
+tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S32.png"),
+false
+
+),
+make_layer(
+QURL + "?data=node['traffic_sign:forward'='ES:S320'](bbox);out+skel;",
+name="#ex#&nbspES:S320forward ",
+tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S320.png"),
+false
+),
+make_layer(
+QURL + "?data=node['traffic_sign:backward'='ES:S320'](bbox);out+skel;",
+name="#ex#&nbspES:S320backward ",
+tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S320.png"),
+false
+
+),
+make_layer(
+QURL + "?data=node['traffic_sign:forward'='ES:S321'](bbox);out+skel;",
+name="#ex#&nbspES:S321forward ",
+tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S321.png"),
+false
+),
+make_layer(
+QURL + "?data=node['traffic_sign:backward'='ES:S321'](bbox);out+skel;",
+name="#ex#&nbspES:S321backward ",
+tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S321.png"),
+false
+
+),
+make_layer(
+QURL + "?data=node['traffic_sign:forward'='ES:S322'](bbox);out+skel;",
+name="#ex#&nbspES:S322forward ",
+tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S322.png"),
+false
+),
+make_layer(
+QURL + "?data=node['traffic_sign:backward'='ES:S322'](bbox);out+skel;",
+name="#ex#&nbspES:S322backward ",
+tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S322.png"),
+false
+
+),
+make_layer(
+QURL + "?data=node['traffic_sign:forward'='ES:S33'](bbox);out+skel;",
+name="#ex#&nbspES:S33forward ",
+tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S33.png"),
+false
+),
+make_layer(
+QURL + "?data=node['traffic_sign:backward'='ES:S33'](bbox);out+skel;",
+name="#ex#&nbspES:S33backward ",
+tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S33.png"),
+false
+
+),
+make_layer(
+QURL + "?data=node['traffic_sign:forward'='ES:S34'](bbox);out+skel;",
+name="#ex#&nbspES:S34forward ",
+tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S34.png"),
+false
+),
+make_layer(
+QURL + "?data=node['traffic_sign:backward'='ES:S34'](bbox);out+skel;",
+name="#ex#&nbspES:S34backward ",
+tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S34.png"),
+false
+
+),
+make_layer(
+QURL + "?data=node['traffic_sign:forward'='ES:S341'](bbox);out+skel;",
+name="#ex#&nbspES:S341forward ",
+tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S341.png"),
+false
+),
+make_layer(
+QURL + "?data=node['traffic_sign:backward'='ES:S341'](bbox);out+skel;",
+name="#ex#&nbspES:S341backward ",
+tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S341.png"),
+false
+
+),
+make_layer(
+QURL + "?data=node['traffic_sign:forward'='ES:S342'](bbox);out+skel;",
+name="#ex#&nbspES:S342forward ",
+tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S342.png"),
+false
+),
+make_layer(
+QURL + "?data=node['traffic_sign:backward'='ES:S342'](bbox);out+skel;",
+name="#ex#&nbspES:S342backward ",
+tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S342.png"),
+false
+
+),
+make_layer(
+QURL + "?data=node['traffic_sign:forward'='ES:S344'](bbox);out+skel;",
+name="#ex#&nbspES:S344forward ",
+tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S344.png"),
+false
+),
+make_layer(
+QURL + "?data=node['traffic_sign:backward'='ES:S344'](bbox);out+skel;",
+name="#ex#&nbspES:S344backward ",
+tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S344.png"),
+false
+
+),
+make_layer(
+QURL + "?data=node['traffic_sign:forward'='ES:S347'](bbox);out+skel;",
+name="#ex#&nbspES:S347forward ",
+tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S347.png"),
+false
+),
+make_layer(
+QURL + "?data=node['traffic_sign:backward'='ES:S347'](bbox);out+skel;",
+name="#ex#&nbspES:S347backward ",
+tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S347.png"),
+false
+
+),
+make_layer(
+QURL + "?data=node['traffic_sign:forward'='ES:S34a'](bbox);out+skel;",
+name="#ex#&nbspES:S34aforward ",
+tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S34a.png"),
+false
+),
+make_layer(
+QURL + "?data=node['traffic_sign:backward'='ES:S34a'](bbox);out+skel;",
+name="#ex#&nbspES:S34abackward ",
+tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S34a.png"),
+false
+
+),
+make_layer(
+QURL + "?data=node['traffic_sign:forward'='ES:S350'](bbox);out+skel;",
+name="#ex#&nbspES:S350forward ",
+tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S350.png"),
+false
+),
+make_layer(
+QURL + "?data=node['traffic_sign:backward'='ES:S350'](bbox);out+skel;",
+name="#ex#&nbspES:S350backward ",
+tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S350.png"),
+false
+
+),
+make_layer(
+QURL + "?data=node['traffic_sign:forward'='ES:S351'](bbox);out+skel;",
+name="#ex#&nbspES:S351forward ",
+tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S351.png"),
+false
+),
+make_layer(
+QURL + "?data=node['traffic_sign:backward'='ES:S351'](bbox);out+skel;",
+name="#ex#&nbspES:S351backward ",
+tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S351.png"),
+false
+
+),
+make_layer(
+QURL + "?data=node['traffic_sign:forward'='ES:S354'](bbox);out+skel;",
+name="#ex#&nbspES:S354forward ",
+tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S354.png"),
+false
+),
+make_layer(
+QURL + "?data=node['traffic_sign:backward'='ES:S354'](bbox);out+skel;",
+name="#ex#&nbspES:S354backward ",
+tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S354.png"),
+false
+
+),
+make_layer(
+QURL + "?data=node['traffic_sign:forward'='ES:S355'](bbox);out+skel;",
+name="#ex#&nbspES:S355forward ",
+tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S355.png"),
+false
+),
+make_layer(
+QURL + "?data=node['traffic_sign:backward'='ES:S355'](bbox);out+skel;",
+name="#ex#&nbspES:S355backward ",
+tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S355.png"),
+false
+
+),
+make_layer(
+QURL + "?data=node['traffic_sign:forward'='ES:S360'](bbox);out+skel;",
+name="#ex#&nbspES:S360forward ",
+tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S360.png"),
+false
+),
+make_layer(
+QURL + "?data=node['traffic_sign:backward'='ES:S360'](bbox);out+skel;",
+name="#ex#&nbspES:S360backward ",
+tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S360.png"),
+false
+
+),
+make_layer(
+QURL + "?data=node['traffic_sign:forward'='ES:S362'](bbox);out+skel;",
+name="#ex#&nbspES:S362forward ",
+tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S362.png"),
+false
+),
+make_layer(
+QURL + "?data=node['traffic_sign:backward'='ES:S362'](bbox);out+skel;",
+name="#ex#&nbspES:S362backward ",
+tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S362.png"),
+false
+
+),
+make_layer(
+QURL + "?data=node['traffic_sign:forward'='ES:S366'](bbox);out+skel;",
+name="#ex#&nbspES:S366forward ",
+tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S366.png"),
+false
+),
+make_layer(
+QURL + "?data=node['traffic_sign:backward'='ES:S366'](bbox);out+skel;",
+name="#ex#&nbspES:S366backward ",
+tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S366.png"),
+false
+
+),
+make_layer(
+QURL + "?data=node['traffic_sign:forward'='ES:S368'](bbox);out+skel;",
+name="#ex#&nbspES:S368forward ",
+tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S368.png"),
+false
+),
+make_layer(
+QURL + "?data=node['traffic_sign:backward'='ES:S368'](bbox);out+skel;",
+name="#ex#&nbspES:S368backward ",
+tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S368.png"),
+false
+
+),
+make_layer(
+QURL + "?data=node['traffic_sign:forward'='ES:S373'](bbox);out+skel;",
+name="#ex#&nbspES:S373forward ",
+tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S373.png"),
+false
+),
+make_layer(
+QURL + "?data=node['traffic_sign:backward'='ES:S373'](bbox);out+skel;",
+name="#ex#&nbspES:S373backward ",
+tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S373.png"),
+false
+
+),
+make_layer(
+QURL + "?data=node['traffic_sign:forward'='ES:S50a'](bbox);out+skel;",
+name="#ex#&nbspES:S50aforward ",
+tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S50a.png"),
+false
+),
+make_layer(
+QURL + "?data=node['traffic_sign:backward'='ES:S50a'](bbox);out+skel;",
+name="#ex#&nbspES:S50abackward ",
+tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S50a.png"),
+false
+
+),
+make_layer(
+QURL + "?data=node['traffic_sign:forward'='ES:S50a_50'](bbox);out+skel;",
+name="#ex#&nbspES:S50a_50forward ",
+tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S50a_50.png"),
+false
+),
+make_layer(
+QURL + "?data=node['traffic_sign:backward'='ES:S50a_50'](bbox);out+skel;",
+name="#ex#&nbspES:S50a_50backward ",
+tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S50a_50.png"),
+false
+
+),
+make_layer(
+QURL + "?data=node['traffic_sign:forward'='ES:S50a_60'](bbox);out+skel;",
+name="#ex#&nbspES:S50a_60forward ",
+tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S50a_60.png"),
+false
+),
+make_layer(
+QURL + "?data=node['traffic_sign:backward'='ES:S50a_60'](bbox);out+skel;",
+name="#ex#&nbspES:S50a_60backward ",
+tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S50a_60.png"),
+false
+
+),
+make_layer(
+QURL + "?data=node['traffic_sign:forward'='ES:S50a_70'](bbox);out+skel;",
+name="#ex#&nbspES:S50a_70forward ",
+tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S50a_70.png"),
+false
+),
+make_layer(
+QURL + "?data=node['traffic_sign:backward'='ES:S50a_70'](bbox);out+skel;",
+name="#ex#&nbspES:S50a_70backward ",
+tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S50a_70.png"),
+false
+
+),
+make_layer(
+QURL + "?data=node['traffic_sign:forward'='ES:S50b'](bbox);out+skel;",
+name="#ex#&nbspES:S50bforward ",
+tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S50b.png"),
+false
+),
+make_layer(
+QURL + "?data=node['traffic_sign:backward'='ES:S50b'](bbox);out+skel;",
+name="#ex#&nbspES:S50bbackward ",
+tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S50b.png"),
+false
+
+),
+make_layer(
+QURL + "?data=node['traffic_sign:forward'='ES:S50b_60'](bbox);out+skel;",
+name="#ex#&nbspES:S50b_60forward ",
+tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S50b_60.png"),
+false
+),
+make_layer(
+QURL + "?data=node['traffic_sign:backward'='ES:S50b_60'](bbox);out+skel;",
+name="#ex#&nbspES:S50b_60backward ",
+tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S50b_60.png"),
+false
+
+),
+make_layer(
+QURL + "?data=node['traffic_sign:forward'='ES:S50b_70'](bbox);out+skel;",
+name="#ex#&nbspES:S50b_70forward ",
+tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S50b_70.png"),
+false
+),
+make_layer(
+QURL + "?data=node['traffic_sign:backward'='ES:S50b_70'](bbox);out+skel;",
+name="#ex#&nbspES:S50b_70backward ",
+tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S50b_70.png"),
+false
+
+),
+make_layer(
+QURL + "?data=node['traffic_sign:forward'='ES:S50c'](bbox);out+skel;",
+name="#ex#&nbspES:S50cforward ",
+tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S50c.png"),
+false
+),
+make_layer(
+QURL + "?data=node['traffic_sign:backward'='ES:S50c'](bbox);out+skel;",
+name="#ex#&nbspES:S50cbackward ",
+tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S50c.png"),
+false
+
+),
+make_layer(
+QURL + "?data=node['traffic_sign:forward'='ES:S50d'](bbox);out+skel;",
+name="#ex#&nbspES:S50dforward ",
+tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S50d.png"),
+false
+),
+make_layer(
+QURL + "?data=node['traffic_sign:backward'='ES:S50d'](bbox);out+skel;",
+name="#ex#&nbspES:S50dbackward ",
+tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S50d.png"),
+false
+
+),
+make_layer(
+QURL + "?data=node['traffic_sign:forward'='ES:S50d_50'](bbox);out+skel;",
+name="#ex#&nbspES:S50d_50forward ",
+tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S50d_50.png"),
+false
+),
+make_layer(
+QURL + "?data=node['traffic_sign:backward'='ES:S50d_50'](bbox);out+skel;",
+name="#ex#&nbspES:S50d_50backward ",
+tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S50d_50.png"),
+false
+
+),
+make_layer(
+QURL + "?data=node['traffic_sign:forward'='ES:S50d_60'](bbox);out+skel;",
+name="#ex#&nbspES:S50d_60forward ",
+tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S50d_60.png"),
+false
+),
+make_layer(
+QURL + "?data=node['traffic_sign:backward'='ES:S50d_60'](bbox);out+skel;",
+name="#ex#&nbspES:S50d_60backward ",
+tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S50d_60.png"),
+false
+
+),
+make_layer(
+QURL + "?data=node['traffic_sign:forward'='ES:S50d_70'](bbox);out+skel;",
+name="#ex#&nbspES:S50d_70forward ",
+tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S50d_70.png"),
+false
+),
+make_layer(
+QURL + "?data=node['traffic_sign:backward'='ES:S50d_70'](bbox);out+skel;",
+name="#ex#&nbspES:S50d_70backward ",
+tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S50d_70.png"),
+false
+
+),
+make_layer(
+QURL + "?data=node['traffic_sign:forward'='ES:S50e'](bbox);out+skel;",
+name="#ex#&nbspES:S50eforward ",
+tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S50e.png"),
+false
+),
+make_layer(
+QURL + "?data=node['traffic_sign:backward'='ES:S50e'](bbox);out+skel;",
+name="#ex#&nbspES:S50ebackward ",
+tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S50e.png"),
+false
+
+),
+make_layer(
+QURL + "?data=node['traffic_sign:forward'='ES:S50e_50'](bbox);out+skel;",
+name="#ex#&nbspES:S50e_50forward ",
+tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S50e_50.png"),
+false
+),
+make_layer(
+QURL + "?data=node['traffic_sign:backward'='ES:S50e_50'](bbox);out+skel;",
+name="#ex#&nbspES:S50e_50backward ",
+tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S50e_50.png"),
+false
+
+),
+make_layer(
+QURL + "?data=node['traffic_sign:forward'='ES:S50e_60'](bbox);out+skel;",
+name="#ex#&nbspES:S50e_60forward ",
+tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S50e_60.png"),
+false
+),
+make_layer(
+QURL + "?data=node['traffic_sign:backward'='ES:S50e_60'](bbox);out+skel;",
+name="#ex#&nbspES:S50e_60backward ",
+tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S50e_60.png"),
+false
+
+),
+make_layer(
+QURL + "?data=node['traffic_sign:forward'='ES:S50e_70'](bbox);out+skel;",
+name="#ex#&nbspES:S50e_70forward ",
+tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S50e_70.png"),
+false
+),
+make_layer(
+QURL + "?data=node['traffic_sign:backward'='ES:S50e_70'](bbox);out+skel;",
+name="#ex#&nbspES:S50e_70backward ",
+tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S50e_70.png"),
+false
+
+),
+make_layer(
+QURL + "?data=node['traffic_sign:forward'='ES:S51'](bbox);out+skel;",
+name="#ex#&nbspES:S51forward ",
+tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S51.png"),
+false
+),
+make_layer(
+QURL + "?data=node['traffic_sign:backward'='ES:S51'](bbox);out+skel;",
+name="#ex#&nbspES:S51backward ",
+tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S51.png"),
+false
+
+),
+make_layer(
+QURL + "?data=node['traffic_sign:forward'='ES:S510'](bbox);out+skel;",
+name="#ex#&nbspES:S510forward ",
+tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S510.png"),
+false
+),
+make_layer(
+QURL + "?data=node['traffic_sign:backward'='ES:S510'](bbox);out+skel;",
+name="#ex#&nbspES:S510backward ",
+tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S510.png"),
+false
+
+),
+make_layer(
+QURL + "?data=node['traffic_sign:forward'='ES:S52'](bbox);out+skel;",
+name="#ex#&nbspES:S52forward ",
+tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S52.png"),
+false
+),
+make_layer(
+QURL + "?data=node['traffic_sign:backward'='ES:S52'](bbox);out+skel;",
+name="#ex#&nbspES:S52backward ",
+tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S52.png"),
+false
+
+),
+make_layer(
+QURL + "?data=node['traffic_sign:forward'='ES:S520'](bbox);out+skel;",
+name="#ex#&nbspES:S520forward ",
+tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S520.png"),
+false
+),
+make_layer(
+QURL + "?data=node['traffic_sign:backward'='ES:S520'](bbox);out+skel;",
+name="#ex#&nbspES:S520backward ",
+tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S520.png"),
+false
+
+),
+make_layer(
+QURL + "?data=node['traffic_sign:forward'='ES:S52a'](bbox);out+skel;",
+name="#ex#&nbspES:S52aforward ",
+tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S52a.png"),
+false
+),
+make_layer(
+QURL + "?data=node['traffic_sign:backward'='ES:S52a'](bbox);out+skel;",
+name="#ex#&nbspES:S52abackward ",
+tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S52a.png"),
+false
+
+),
+make_layer(
+QURL + "?data=node['traffic_sign:forward'='ES:S52b'](bbox);out+skel;",
+name="#ex#&nbspES:S52bforward ",
+tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S52b.png"),
+false
+),
+make_layer(
+QURL + "?data=node['traffic_sign:backward'='ES:S52b'](bbox);out+skel;",
+name="#ex#&nbspES:S52bbackward ",
+tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S52b.png"),
+false
+
+),
+make_layer(
+QURL + "?data=node['traffic_sign:forward'='ES:S53'](bbox);out+skel;",
+name="#ex#&nbspES:S53forward ",
+tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S53.png"),
+false
+),
+make_layer(
+QURL + "?data=node['traffic_sign:backward'='ES:S53'](bbox);out+skel;",
+name="#ex#&nbspES:S53backward ",
+tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S53.png"),
+false
+
+),
+make_layer(
+QURL + "?data=node['traffic_sign:forward'='ES:S53a'](bbox);out+skel;",
+name="#ex#&nbspES:S53aforward ",
+tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S53a.png"),
+false
+),
+make_layer(
+QURL + "?data=node['traffic_sign:backward'='ES:S53a'](bbox);out+skel;",
+name="#ex#&nbspES:S53abackward ",
+tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S53a.png"),
+false
+
+),
+make_layer(
+QURL + "?data=node['traffic_sign:forward'='ES:S53b'](bbox);out+skel;",
+name="#ex#&nbspES:S53bforward ",
+tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S53b.png"),
+false
+),
+make_layer(
+QURL + "?data=node['traffic_sign:backward'='ES:S53b'](bbox);out+skel;",
+name="#ex#&nbspES:S53bbackward ",
+tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S53b.png"),
+false
+
+),
+make_layer(
+QURL + "?data=node['traffic_sign:forward'='ES:S53c'](bbox);out+skel;",
+name="#ex#&nbspES:S53cforward ",
+tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S53c.png"),
+false
+),
+make_layer(
+QURL + "?data=node['traffic_sign:backward'='ES:S53c'](bbox);out+skel;",
+name="#ex#&nbspES:S53cbackward ",
+tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S53c.png"),
+false
+
+),
+make_layer(
+QURL + "?data=node['traffic_sign:forward'='ES:S540'](bbox);out+skel;",
+name="#ex#&nbspES:S540forward ",
+tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S540.png"),
+false
+),
+make_layer(
+QURL + "?data=node['traffic_sign:backward'='ES:S540'](bbox);out+skel;",
+name="#ex#&nbspES:S540backward ",
+tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S540.png"),
+false
+
+),
+make_layer(
+QURL + "?data=node['traffic_sign:forward'='ES:S550'](bbox);out+skel;",
+name="#ex#&nbspES:S550forward ",
+tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S550.png"),
+false
+),
+make_layer(
+QURL + "?data=node['traffic_sign:backward'='ES:S550'](bbox);out+skel;",
+name="#ex#&nbspES:S550backward ",
+tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S550.png"),
+false
+
+),
+make_layer(
+QURL + "?data=node['traffic_sign:forward'='ES:S560'](bbox);out+skel;",
+name="#ex#&nbspES:S560forward ",
+tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S560.png"),
+false
+),
+make_layer(
+QURL + "?data=node['traffic_sign:backward'='ES:S560'](bbox);out+skel;",
+name="#ex#&nbspES:S560backward ",
+tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S560.png"),
+false
+
+),
+make_layer(
+QURL + "?data=node['traffic_sign:forward'='ES:S570'](bbox);out+skel;",
+name="#ex#&nbspES:S570forward ",
+tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S570.png"),
+false
+),
+make_layer(
+QURL + "?data=node['traffic_sign:backward'='ES:S570'](bbox);out+skel;",
+name="#ex#&nbspES:S570backward ",
+tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S570.png"),
+false
+
+),
+make_layer(
+QURL + "?data=node['traffic_sign:forward'='ES:S570a'](bbox);out+skel;",
+name="#ex#&nbspES:S570aforward ",
+tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S570a.png"),
+false
+),
+make_layer(
+QURL + "?data=node['traffic_sign:backward'='ES:S570a'](bbox);out+skel;",
+name="#ex#&nbspES:S570abackward ",
+tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S570a.png"),
+false
+
+),
+make_layer(
+QURL + "?data=node['traffic_sign:forward'='ES:S571'](bbox);out+skel;",
+name="#ex#&nbspES:S571forward ",
+tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S571.png"),
+false
+),
+make_layer(
+QURL + "?data=node['traffic_sign:backward'='ES:S571'](bbox);out+skel;",
+name="#ex#&nbspES:S571backward ",
+tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S571.png"),
+false
+
+),
+make_layer(
+QURL + "?data=node['traffic_sign:forward'='ES:S572'](bbox);out+skel;",
+name="#ex#&nbspES:S572forward ",
+tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S572.png"),
+false
+),
+make_layer(
+QURL + "?data=node['traffic_sign:backward'='ES:S572'](bbox);out+skel;",
+name="#ex#&nbspES:S572backward ",
+tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S572.png"),
+false
+
+),
+make_layer(
+QURL + "?data=node['traffic_sign:forward'='ES:S573'](bbox);out+skel;",
+name="#ex#&nbspES:S573forward ",
+tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S573.png"),
+false
+),
+make_layer(
+QURL + "?data=node['traffic_sign:backward'='ES:S573'](bbox);out+skel;",
+name="#ex#&nbspES:S573backward ",
+tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S573.png"),
+false
+
+),
+make_layer(
+QURL + "?data=node['traffic_sign:forward'='ES:S574'](bbox);out+skel;",
+name="#ex#&nbspES:S574forward ",
+tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S574.png"),
+false
+),
+make_layer(
+QURL + "?data=node['traffic_sign:backward'='ES:S574'](bbox);out+skel;",
+name="#ex#&nbspES:S574backward ",
+tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S574.png"),
+false
+
+),
+make_layer(
+QURL + "?data=node['traffic_sign:forward'='ES:S574a'](bbox);out+skel;",
+name="#ex#&nbspES:S574aforward ",
+tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S574a.png"),
+false
+),
+make_layer(
+QURL + "?data=node['traffic_sign:backward'='ES:S574a'](bbox);out+skel;",
+name="#ex#&nbspES:S574abackward ",
+tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S574a.png"),
+false
+
+),
+make_layer(
+QURL + "?data=node['traffic_sign:forward'='ES:S574b'](bbox);out+skel;",
+name="#ex#&nbspES:S574bforward ",
+tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S574b.png"),
+false
+),
+make_layer(
+QURL + "?data=node['traffic_sign:backward'='ES:S574b'](bbox);out+skel;",
+name="#ex#&nbspES:S574bbackward ",
+tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S574b.png"),
+false
+
+),
+make_layer(
+QURL + "?data=node['traffic_sign:forward'='ES:S575'](bbox);out+skel;",
+name="#ex#&nbspES:S575forward ",
+tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S575.png"),
+false
+),
+make_layer(
+QURL + "?data=node['traffic_sign:backward'='ES:S575'](bbox);out+skel;",
+name="#ex#&nbspES:S575backward ",
+tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S575.png"),
+false
+
+),
+make_layer(
+QURL + "?data=node['traffic_sign:forward'='ES:S600'](bbox);out+skel;",
+name="#ex#&nbspES:S600forward ",
+tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S600.png"),
+false
+),
+make_layer(
+QURL + "?data=node['traffic_sign:backward'='ES:S600'](bbox);out+skel;",
+name="#ex#&nbspES:S600backward ",
+tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S600.png"),
+false
+
+),
+make_layer(
+QURL + "?data=node['traffic_sign:forward'='ES:S602'](bbox);out+skel;",
+name="#ex#&nbspES:S602forward ",
+tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S602.png"),
+false
+),
+make_layer(
+QURL + "?data=node['traffic_sign:backward'='ES:S602'](bbox);out+skel;",
+name="#ex#&nbspES:S602backward ",
+tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S602.png"),
+false
+
+),
+make_layer(
+QURL + "?data=node['traffic_sign:forward'='ES:S60a'](bbox);out+skel;",
+name="#ex#&nbspES:S60aforward ",
+tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S60a.png"),
+false
+),
+make_layer(
+QURL + "?data=node['traffic_sign:backward'='ES:S60a'](bbox);out+skel;",
+name="#ex#&nbspES:S60abackward ",
+tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S60a.png"),
+false
+
+),
+make_layer(
+QURL + "?data=node['traffic_sign:forward'='ES:S60b'](bbox);out+skel;",
+name="#ex#&nbspES:S60bforward ",
+tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S60b.png"),
+false
+),
+make_layer(
+QURL + "?data=node['traffic_sign:backward'='ES:S60b'](bbox);out+skel;",
+name="#ex#&nbspES:S60bbackward ",
+tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S60b.png"),
+false
+
+),
+make_layer(
+QURL + "?data=node['traffic_sign:forward'='ES:S610'](bbox);out+skel;",
+name="#ex#&nbspES:S610forward ",
+tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S610.png"),
+false
+),
+make_layer(
+QURL + "?data=node['traffic_sign:backward'='ES:S610'](bbox);out+skel;",
+name="#ex#&nbspES:S610backward ",
+tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S610.png"),
+false
+
+),
+make_layer(
+QURL + "?data=node['traffic_sign:forward'='ES:S61a'](bbox);out+skel;",
+name="#ex#&nbspES:S61aforward ",
+tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S61a.png"),
+false
+),
+make_layer(
+QURL + "?data=node['traffic_sign:backward'='ES:S61a'](bbox);out+skel;",
+name="#ex#&nbspES:S61abackward ",
+tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S61a.png"),
+false
+
+),
+make_layer(
+QURL + "?data=node['traffic_sign:forward'='ES:S61b'](bbox);out+skel;",
+name="#ex#&nbspES:S61bforward ",
+tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S61b.png"),
+false
+),
+make_layer(
+QURL + "?data=node['traffic_sign:backward'='ES:S61b'](bbox);out+skel;",
+name="#ex#&nbspES:S61bbackward ",
+tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S61b.png"),
+false
+
+),
+make_layer(
+QURL + "?data=node['traffic_sign:forward'='ES:S62a'](bbox);out+skel;",
+name="#ex#&nbspES:S62aforward ",
+tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S62a.png"),
+false
+),
+make_layer(
+QURL + "?data=node['traffic_sign:backward'='ES:S62a'](bbox);out+skel;",
+name="#ex#&nbspES:S62abackward ",
+tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S62a.png"),
+false
+
+),
+make_layer(
+QURL + "?data=node['traffic_sign:forward'='ES:S62b'](bbox);out+skel;",
+name="#ex#&nbspES:S62bforward ",
+tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S62b.png"),
+false
+),
+make_layer(
+QURL + "?data=node['traffic_sign:backward'='ES:S62b'](bbox);out+skel;",
+name="#ex#&nbspES:S62bbackward ",
+tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S62b.png"),
+false
+
+),
+make_layer(
+QURL + "?data=node['traffic_sign:forward'='ES:S63'](bbox);out+skel;",
+name="#ex#&nbspES:S63forward ",
+tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S63.png"),
+false
+),
+make_layer(
+QURL + "?data=node['traffic_sign:backward'='ES:S63'](bbox);out+skel;",
+name="#ex#&nbspES:S63backward ",
+tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S63.png"),
+false
+
+),
+make_layer(
+QURL + "?data=node['traffic_sign:forward'='ES:S64a'](bbox);out+skel;",
+name="#ex#&nbspES:S64aforward ",
+tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S64a.png"),
+false
+),
+make_layer(
+QURL + "?data=node['traffic_sign:backward'='ES:S64a'](bbox);out+skel;",
+name="#ex#&nbspES:S64abackward ",
+tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S64a.png"),
+false
+
+),
+make_layer(
+QURL + "?data=node['traffic_sign:forward'='ES:S64b'](bbox);out+skel;",
+name="#ex#&nbspES:S64bforward ",
+tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S64b.png"),
+false
+),
+make_layer(
+QURL + "?data=node['traffic_sign:backward'='ES:S64b'](bbox);out+skel;",
+name="#ex#&nbspES:S64bbackward ",
+tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S64b.png"),
+false
+
+),
+make_layer(
+QURL + "?data=node['traffic_sign:forward'='ES:S7'](bbox);out+skel;",
+name="#ex#&nbspES:S7forward ",
+tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S7.png"),
+false
+),
+make_layer(
+QURL + "?data=node['traffic_sign:backward'='ES:S7'](bbox);out+skel;",
+name="#ex#&nbspES:S7backward ",
+tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S7.png"),
+false
+
+),
+make_layer(
+QURL + "?data=node['traffic_sign:forward'='ES:S700'](bbox);out+skel;",
+name="#ex#&nbspES:S700forward ",
+tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S700.png"),
+false
+),
+make_layer(
+QURL + "?data=node['traffic_sign:backward'='ES:S700'](bbox);out+skel;",
+name="#ex#&nbspES:S700backward ",
+tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S700.png"),
+false
+
+),
+make_layer(
+QURL + "?data=node['traffic_sign:forward'='ES:S710'](bbox);out+skel;",
+name="#ex#&nbspES:S710forward ",
+tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S710.png"),
+false
+),
+make_layer(
+QURL + "?data=node['traffic_sign:backward'='ES:S710'](bbox);out+skel;",
+name="#ex#&nbspES:S710backward ",
+tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S710.png"),
+false
+
+),
+make_layer(
+QURL + "?data=node['traffic_sign:forward'='ES:S720'](bbox);out+skel;",
+name="#ex#&nbspES:S720forward ",
+tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S720.png"),
+false
+),
+make_layer(
+QURL + "?data=node['traffic_sign:backward'='ES:S720'](bbox);out+skel;",
+name="#ex#&nbspES:S720backward ",
+tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S720.png"),
+false
+
+),
+make_layer(
+QURL + "?data=node['traffic_sign:forward'='ES:S730'](bbox);out+skel;",
+name="#ex#&nbspES:S730forward ",
+tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S730.png"),
+false
+),
+make_layer(
+QURL + "?data=node['traffic_sign:backward'='ES:S730'](bbox);out+skel;",
+name="#ex#&nbspES:S730backward ",
+tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S730.png"),
+false
+
+),
+make_layer(
+QURL + "?data=node['traffic_sign:forward'='ES:S740'](bbox);out+skel;",
+name="#ex#&nbspES:S740forward ",
+tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S740.png"),
+false
+),
+make_layer(
+QURL + "?data=node['traffic_sign:backward'='ES:S740'](bbox);out+skel;",
+name="#ex#&nbspES:S740backward ",
+tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S740.png"),
+false
+
+),
+make_layer(
+QURL + "?data=node['traffic_sign:forward'='ES:S750'](bbox);out+skel;",
+name="#ex#&nbspES:S750forward ",
+tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S750.png"),
+false
+),
+make_layer(
+QURL + "?data=node['traffic_sign:backward'='ES:S750'](bbox);out+skel;",
+name="#ex#&nbspES:S750backward ",
+tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S750.png"),
+false
+
+),
+make_layer(
+QURL + "?data=node['traffic_sign:forward'='ES:S760'](bbox);out+skel;",
+name="#ex#&nbspES:S760forward ",
+tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S760.png"),
+false
+),
+make_layer(
+QURL + "?data=node['traffic_sign:backward'='ES:S760'](bbox);out+skel;",
+name="#ex#&nbspES:S760backward ",
+tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S760.png"),
+false
+
+),
+make_layer(
+QURL + "?data=node['traffic_sign:forward'='ES:S770'](bbox);out+skel;",
+name="#ex#&nbspES:S770forward ",
+tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S770.png"),
+false
+),
+make_layer(
+QURL + "?data=node['traffic_sign:backward'='ES:S770'](bbox);out+skel;",
+name="#ex#&nbspES:S770backward ",
+tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_S770.png"),
+false
+
+),
+
+
+
+
 			
 			]);
 	}	
