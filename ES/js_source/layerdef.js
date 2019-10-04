@@ -127,7 +127,7 @@ function layerdef(type){
 //				defaultSolidLine("red"),
 //				false,
 //			),
-),
+
 make_layer(
 QURL + "?data=node['traffic_sign:forward'='ES:'](bbox);node['traffic_sign:2:forward'='ES:'](bbox);out+skel;",
 name="#ex#&nbspES: forward ",
